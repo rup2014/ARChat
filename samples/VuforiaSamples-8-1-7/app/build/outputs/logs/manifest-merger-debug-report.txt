@@ -1,0 +1,280 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
+MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:17:1-46:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
+	package
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
+		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
+		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:8:22-69
+uses-feature#0x00020000
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:10:5-54
+	android:glEsVersion
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:10:19-51
+uses-feature#android.hardware.camera
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:25:5-60
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:25:19-57
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:27:5-65
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:27:22-62
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:29:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:34:5-79
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:34:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:35:5-80
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:35:22-77
+application
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:37:5-145:19
+MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:30:5-44:19
+MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:30:5-44:19
+	android:supportsRtl
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:43:9-36
+	android:label
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:41:9-41
+	android:launchMode
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:42:9-40
+	android:icon
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:40:9-38
+	android:allowBackup
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:38:9-35
+	android:description
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:39:9-54
+	android:theme
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:44:9-47
+activity#com.archat.engine.Chat.LoginActivity
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:45:9-47:69
+	android:label
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:47:13-57
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:46:13-42
+meta-data#com.google.ar.core
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:49:9-51:40
+	android:value
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:50:13-46
+activity#com.archat.engine.Chat.ui.ActivityList.ActivitySplashScreen
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:67:9-77:20
+	android:screenOrientation
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:71:13-49
+	android:noHistory
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:70:13-37
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:69:13-93
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:68:13-87
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:72:13-76:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:73:17-69
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:73:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:75:17-77
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:75:27-74
+activity#com.archat.engine.Chat.ui.ActivityList.ActivityLauncher
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:78:9-81:61
+	android:screenOrientation
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:81:13-49
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:80:13-93
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:79:13-83
+activity#com.archat.engine.Chat.ui.ActivityList.AboutScreen
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:82:9-86:61
+	android:screenOrientation
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:86:13-49
+	android:noHistory
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:85:13-37
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:84:13-93
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:83:13-78
+activity#com.archat.engine.Chat.app.ImageTargets.ImageTargets
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:87:9-91:63
+	android:launchMode
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:90:13-44
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:89:13-93
+	android:theme
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:91:13-51
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:88:13-58
+activity#com.archat.engine.Chat.app.ModelTargets.ModelTargets
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:92:9-97:63
+	android:screenOrientation
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:96:13-50
+	android:launchMode
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:95:13-44
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:94:13-93
+	android:theme
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:97:13-51
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:93:13-58
+activity#com.archat.engine.Chat.app.ModelTargetsTrained.ModelTargetsTrained
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:98:9-103:63
+	android:screenOrientation
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:102:13-50
+	android:launchMode
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:101:13-44
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:100:13-93
+	android:theme
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:103:13-51
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:99:13-72
+activity#com.archat.engine.Chat.app.GroundPlane.GroundPlane
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:104:9-109:63
+	android:screenOrientation
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:108:13-50
+	android:launchMode
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:107:13-44
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:106:13-93
+	android:theme
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:109:13-51
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:105:13-56
+activity#com.archat.engine.Chat.app.VuMark.VuMark
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:110:9-114:63
+	android:launchMode
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:113:13-44
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:112:13-93
+	android:theme
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:114:13-51
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:111:13-46
+activity#com.archat.engine.Chat.app.CylinderTargets.CylinderTargets
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:115:9-119:63
+	android:launchMode
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:118:13-44
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:117:13-93
+	android:theme
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:119:13-51
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:116:13-64
+activity#com.archat.engine.Chat.app.VirtualButtons.VirtualButtons
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:120:9-124:63
+	android:launchMode
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:123:13-44
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:122:13-93
+	android:theme
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:124:13-51
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:121:13-62
+activity#com.archat.engine.Chat.app.UserDefinedTargets.UserDefinedTargets
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:125:9-129:63
+	android:launchMode
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:128:13-44
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:127:13-93
+	android:theme
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:129:13-51
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:126:13-92
+activity#com.archat.engine.Chat.app.MultiTargets.MultiTargets
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:130:9-134:63
+	android:launchMode
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:133:13-44
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:132:13-93
+	android:theme
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:134:13-51
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:131:13-58
+activity#com.archat.engine.Chat.app.CloudRecognition.CloudReco
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:135:9-139:63
+	android:launchMode
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:138:13-44
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:137:13-93
+	android:theme
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:139:13-51
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:136:13-59
+activity#com.archat.engine.Chat.app.ObjectRecognition.ObjectTargets
+ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:140:9-144:63
+	android:launchMode
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:143:13-44
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:142:13-93
+	android:theme
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:144:13-51
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:141:13-64
+uses-sdk
+INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:26:5-28:41
+MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:26:5-28:41
+INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+activity#com.google.ar.core.InstallActivity
+ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:33:9-39:80
+	android:excludeFromRecents
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:36:13-46
+	android:launchMode
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:38:13-43
+	android:exported
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:37:13-37
+	android:configChanges
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:35:13-74
+	android:theme
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:39:13-77
+	android:name
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:34:13-62
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:41:9-43:41
+	android:value
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:43:13-38
+	android:name
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:42:13-62
