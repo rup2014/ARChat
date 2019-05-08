@@ -4,17 +4,22 @@ Vuforia Augmented Reality SDK Release Package
 
 This package has the following structure:
 
-vuforia-sdk-android-xx-yy-zz\     
+ARChat\     
     build\                        Vuforia SDK
         include\                  Commented header files
         java\                     Precompiled Java classes
         lib\                      Dynamic link libraries
     licenses\                     License Agreements
-    samples\                      Destination folder for sample applications
+    app\                      Destination folder for sample applications
         readme.txt                Instructions for downloading and installing the sample applications
     assets\                       Additional assets required to use Vuforia SDK
     readme.txt                    This document
     
+To start in Android Studio follow the steps:
+    
+Open Android Studio
+Click on "open an existing project" and navigate through ARChat -> app. Click on Application and open.
+If an existing project opens up then navigate to File and follow the above steps. 
 
 To get started, go to https://developer.vuforia.com, where you will find detailed 
 documentation on developing AR apps using the Vuforia SDK, and a brief description 
