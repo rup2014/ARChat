@@ -1,280 +1,540 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
-INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
-INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
-INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
-MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:17:1-46:12
-INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
-INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
-INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-94:12
+MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f67bf2f563e5e7c4b2295e7bfd85300\AndroidManifest.xml:17:1-46:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\0f7c217439ea3195a225fdccf8c762fd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\61533b29d9fde6543d85bbc714450709\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4e83c5574363d09923fe3242ec514491\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\d4b5b62fccb75e703287a3f1386c8b41\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\0a82a966b99ac014b99968aa5a5af7cf\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\8d3b98884586cff9cc78d0865d6d660d\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\90b3910b4ec15152de9fd9a13a06e4c0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\f8faf95a3fe4a8a425f162f7bc1e6473\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f1313d95ab846a01046ccfbec08e52d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a18d696d06611ce89b68607edb5fc4ab\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\022eb1152dd75ac72d34812882721133\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6821234001d2632fc680b316cbd9e2fc\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\434997b698580a9924bf25a12ec8d876\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\634becf2a115d7b033b25b38703103ec\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\818b942ab7f7ba2fb463e0f3ba46f636\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c027927832a9ed456d08a11faef9b7e1\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a1eeb809309af8e581f51102952ac849\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\8be2b7555aea7eaf0599ff50622ab967\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\e569c3c8a20fd9ac99cee0559c52867d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\911e31ad33e1e03d79e5e7b8a503610d\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\e07795db60a108e2d2a454a1326568c9\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\7ae935e4d4c57ee3730c2c4d23cd7e27\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6fa0e2512f529beb445fc211872ad264\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\7ec1aac1b7222cd812ca9daeaf1bfeb6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\743fa5be2b5e406ac80881f147aa9908\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\da9f1e2ce60f12e6125f3e00a402ce99\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\b31266d37a5e40484939648e580b800e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4c7e13982e1d18c320bda7d48926a053\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6ff46b8d1182e950a47fe9a0928458c1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\77ceded4cf96c7c8044d3bace76c06c4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\7196fd75faa129a968edc0f12730e37f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c3d33cd344264b357b6ebfbe675d7401\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\993371f0c25562c2368ae092a3e6f87b\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c1ad1b55bed9feea3e5da02f5e076249\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\82c2c788976e34714a4d88a3e4a952cd\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a660e3a90d575c824e93a65050034ad0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\1878975db0e40f5b4666c0a23dcd1d03\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-94:12
 	package
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:3:5-37
-		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
-		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-94:12
+		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:1-147:12
-		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-94:12
+		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:6:5-71
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:5:5-71
 	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:6:22-68
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:5:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:7:5-71
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:6:5-71
 	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:7:22-68
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:6:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:8:5-72
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:7:5-72
 	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:8:22-69
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:7:22-69
 uses-feature#0x00020000
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:10:5-54
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:9:5-54
 	android:glEsVersion
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:10:19-51
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:9:19-51
 uses-feature#android.hardware.camera
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:25:5-60
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:24:5-60
 	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:25:19-57
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:24:19-57
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:27:5-65
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:25:5-65
 	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:27:22-62
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:25:22-62
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:29:5-67
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a18d696d06611ce89b68607edb5fc4ab\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a18d696d06611ce89b68607edb5fc4ab\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c027927832a9ed456d08a11faef9b7e1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c027927832a9ed456d08a11faef9b7e1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a1eeb809309af8e581f51102952ac849\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a1eeb809309af8e581f51102952ac849\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:29:22-64
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:26:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:34:5-79
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:31:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a18d696d06611ce89b68607edb5fc4ab\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a18d696d06611ce89b68607edb5fc4ab\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c027927832a9ed456d08a11faef9b7e1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c027927832a9ed456d08a11faef9b7e1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a1eeb809309af8e581f51102952ac849\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a1eeb809309af8e581f51102952ac849\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:34:22-76
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:31:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:35:5-80
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:32:5-80
 	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:35:22-77
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:32:22-77
 application
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:37:5-145:19
-MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:30:5-44:19
-MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:30:5-44:19
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:34:5-92:19
+MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f67bf2f563e5e7c4b2295e7bfd85300\AndroidManifest.xml:30:5-44:19
+MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f67bf2f563e5e7c4b2295e7bfd85300\AndroidManifest.xml:30:5-44:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4e83c5574363d09923fe3242ec514491\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4e83c5574363d09923fe3242ec514491\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\0a82a966b99ac014b99968aa5a5af7cf\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\0a82a966b99ac014b99968aa5a5af7cf\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\f8faf95a3fe4a8a425f162f7bc1e6473\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\f8faf95a3fe4a8a425f162f7bc1e6473\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f1313d95ab846a01046ccfbec08e52d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f1313d95ab846a01046ccfbec08e52d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a18d696d06611ce89b68607edb5fc4ab\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a18d696d06611ce89b68607edb5fc4ab\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\022eb1152dd75ac72d34812882721133\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\022eb1152dd75ac72d34812882721133\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6821234001d2632fc680b316cbd9e2fc\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6821234001d2632fc680b316cbd9e2fc\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\434997b698580a9924bf25a12ec8d876\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\434997b698580a9924bf25a12ec8d876\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\634becf2a115d7b033b25b38703103ec\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\634becf2a115d7b033b25b38703103ec\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\818b942ab7f7ba2fb463e0f3ba46f636\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\818b942ab7f7ba2fb463e0f3ba46f636\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c027927832a9ed456d08a11faef9b7e1\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c027927832a9ed456d08a11faef9b7e1\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a1eeb809309af8e581f51102952ac849\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a1eeb809309af8e581f51102952ac849\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\8be2b7555aea7eaf0599ff50622ab967\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\8be2b7555aea7eaf0599ff50622ab967\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\e569c3c8a20fd9ac99cee0559c52867d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\e569c3c8a20fd9ac99cee0559c52867d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\911e31ad33e1e03d79e5e7b8a503610d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\911e31ad33e1e03d79e5e7b8a503610d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\e07795db60a108e2d2a454a1326568c9\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\e07795db60a108e2d2a454a1326568c9\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\7ae935e4d4c57ee3730c2c4d23cd7e27\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\7ae935e4d4c57ee3730c2c4d23cd7e27\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\993371f0c25562c2368ae092a3e6f87b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\993371f0c25562c2368ae092a3e6f87b\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:43:9-36
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:40:9-36
 	android:label
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:41:9-41
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:38:9-41
 	android:launchMode
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:42:9-40
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:39:9-40
 	android:icon
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:40:9-38
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:37:9-38
 	android:allowBackup
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:38:9-35
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:35:9-35
 	android:description
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:39:9-54
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:36:9-54
 	android:theme
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:44:9-47
-activity#com.archat.engine.Chat.LoginActivity
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:45:9-47:69
-	android:label
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:47:13-57
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:41:9-47
+activity#com.archat.engine.Chat.ui.LoginActivity
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:42:9-51:20
+	android:theme
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:44:13-51
 	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:46:13-42
-meta-data#com.google.ar.core
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:49:9-51:40
-	android:value
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:51:13-37
-	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:50:13-46
-activity#com.archat.engine.Chat.ui.ActivityList.ActivitySplashScreen
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:67:9-77:20
-	android:screenOrientation
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:71:13-49
-	android:noHistory
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:70:13-37
-	android:configChanges
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:69:13-93
-	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:68:13-87
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:43:13-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:72:13-76:29
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:46:13-50:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:73:17-69
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:47:17-69
 	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:73:25-66
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:47:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:75:17-77
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:49:17-77
 	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:75:27-74
-activity#com.archat.engine.Chat.ui.ActivityList.ActivityLauncher
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:78:9-81:61
-	android:screenOrientation
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:81:13-49
-	android:configChanges
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:80:13-93
-	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:79:13-83
-activity#com.archat.engine.Chat.ui.ActivityList.AboutScreen
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:82:9-86:61
-	android:screenOrientation
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:86:13-49
-	android:noHistory
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:85:13-37
-	android:configChanges
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:84:13-93
-	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:83:13-78
-activity#com.archat.engine.Chat.app.ImageTargets.ImageTargets
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:87:9-91:63
-	android:launchMode
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:90:13-44
-	android:configChanges
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:89:13-93
-	android:theme
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:91:13-51
-	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:88:13-58
-activity#com.archat.engine.Chat.app.ModelTargets.ModelTargets
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:92:9-97:63
-	android:screenOrientation
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:96:13-50
-	android:launchMode
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:95:13-44
-	android:configChanges
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:94:13-93
-	android:theme
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:97:13-51
-	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:93:13-58
-activity#com.archat.engine.Chat.app.ModelTargetsTrained.ModelTargetsTrained
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:98:9-103:63
-	android:screenOrientation
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:102:13-50
-	android:launchMode
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:101:13-44
-	android:configChanges
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:100:13-93
-	android:theme
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:103:13-51
-	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:99:13-72
-activity#com.archat.engine.Chat.app.GroundPlane.GroundPlane
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:104:9-109:63
-	android:screenOrientation
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:108:13-50
-	android:launchMode
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:107:13-44
-	android:configChanges
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:106:13-93
-	android:theme
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:109:13-51
-	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:105:13-56
-activity#com.archat.engine.Chat.app.VuMark.VuMark
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:110:9-114:63
-	android:launchMode
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:113:13-44
-	android:configChanges
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:112:13-93
-	android:theme
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:114:13-51
-	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:111:13-46
-activity#com.archat.engine.Chat.app.CylinderTargets.CylinderTargets
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:115:9-119:63
-	android:launchMode
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:118:13-44
-	android:configChanges
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:117:13-93
-	android:theme
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:119:13-51
-	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:116:13-64
-activity#com.archat.engine.Chat.app.VirtualButtons.VirtualButtons
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:120:9-124:63
-	android:launchMode
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:123:13-44
-	android:configChanges
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:122:13-93
-	android:theme
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:124:13-51
-	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:121:13-62
-activity#com.archat.engine.Chat.app.UserDefinedTargets.UserDefinedTargets
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:125:9-129:63
-	android:launchMode
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:128:13-44
-	android:configChanges
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:127:13-93
-	android:theme
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:129:13-51
-	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:126:13-92
-activity#com.archat.engine.Chat.app.MultiTargets.MultiTargets
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:130:9-134:63
-	android:launchMode
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:133:13-44
-	android:configChanges
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:132:13-93
-	android:theme
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:134:13-51
-	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:131:13-58
-activity#com.archat.engine.Chat.app.CloudRecognition.CloudReco
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:135:9-139:63
-	android:launchMode
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:138:13-44
-	android:configChanges
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:137:13-93
-	android:theme
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:139:13-51
-	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:136:13-59
-activity#com.archat.engine.Chat.app.ObjectRecognition.ObjectTargets
-ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:140:9-144:63
-	android:launchMode
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:143:13-44
-	android:configChanges
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:142:13-93
-	android:theme
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:144:13-51
-	android:name
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml:141:13-64
-uses-sdk
-INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
-MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:26:5-28:41
-MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:26:5-28:41
-INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
-	android:targetSdkVersion
-		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rup96\Desktop\ARChat\samples\VuforiaSamples-8-1-7\app\src\main\AndroidManifest.xml
-activity#com.google.ar.core.InstallActivity
-ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:33:9-39:80
-	android:excludeFromRecents
-		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:36:13-46
-	android:launchMode
-		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:38:13-43
-	android:exported
-		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:37:13-37
-	android:configChanges
-		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:35:13-74
-	android:theme
-		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:39:13-77
-	android:name
-		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:34:13-62
-meta-data#com.google.ar.core.min_apk_version
-ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:41:9-43:41
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:49:27-74
+meta-data#com.google.ar.core
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:53:9-55:40
 	android:value
-		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:43:13-38
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-1\files-1.1\core-1.6.0.aar\d32acfaf499fbec23f9e17358d37424d\AndroidManifest.xml:42:13-62
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:54:13-46
+activity#com.archat.engine.Chat.ui.ActivityList.ActivitySplashScreen
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:71:9-77:20
+	android:screenOrientation
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:75:13-49
+	android:noHistory
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:74:13-37
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:73:13-93
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:72:13-65
+activity#com.archat.engine.Chat.ui.ActivityList.ActivityLauncher
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:78:9-81:52
+	android:screenOrientation
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:81:13-49
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:80:13-93
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:79:13-61
+activity#com.archat.engine.Chat.ui.ActivityList.AboutScreen
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:82:9-86:52
+	android:screenOrientation
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:86:13-49
+	android:noHistory
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:85:13-37
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:84:13-93
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:83:13-56
+activity#com.archat.engine.Chat.app.UserDefinedTargets.UserDefinedTargets
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:87:9-91:54
+	android:launchMode
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:90:13-44
+	android:configChanges
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:89:13-93
+	android:theme
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:91:13-51
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:88:13-70
+uses-sdk
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
+MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f67bf2f563e5e7c4b2295e7bfd85300\AndroidManifest.xml:26:5-28:41
+MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f67bf2f563e5e7c4b2295e7bfd85300\AndroidManifest.xml:26:5-28:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\0f7c217439ea3195a225fdccf8c762fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\0f7c217439ea3195a225fdccf8c762fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\61533b29d9fde6543d85bbc714450709\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\61533b29d9fde6543d85bbc714450709\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4e83c5574363d09923fe3242ec514491\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4e83c5574363d09923fe3242ec514491\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\d4b5b62fccb75e703287a3f1386c8b41\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\d4b5b62fccb75e703287a3f1386c8b41\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\0a82a966b99ac014b99968aa5a5af7cf\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\0a82a966b99ac014b99968aa5a5af7cf\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\8d3b98884586cff9cc78d0865d6d660d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\8d3b98884586cff9cc78d0865d6d660d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\90b3910b4ec15152de9fd9a13a06e4c0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\90b3910b4ec15152de9fd9a13a06e4c0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\f8faf95a3fe4a8a425f162f7bc1e6473\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\f8faf95a3fe4a8a425f162f7bc1e6473\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f1313d95ab846a01046ccfbec08e52d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f1313d95ab846a01046ccfbec08e52d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a18d696d06611ce89b68607edb5fc4ab\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a18d696d06611ce89b68607edb5fc4ab\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\022eb1152dd75ac72d34812882721133\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\022eb1152dd75ac72d34812882721133\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6821234001d2632fc680b316cbd9e2fc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6821234001d2632fc680b316cbd9e2fc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\434997b698580a9924bf25a12ec8d876\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\434997b698580a9924bf25a12ec8d876\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\634becf2a115d7b033b25b38703103ec\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\634becf2a115d7b033b25b38703103ec\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\818b942ab7f7ba2fb463e0f3ba46f636\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\818b942ab7f7ba2fb463e0f3ba46f636\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c027927832a9ed456d08a11faef9b7e1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c027927832a9ed456d08a11faef9b7e1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a1eeb809309af8e581f51102952ac849\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a1eeb809309af8e581f51102952ac849\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\8be2b7555aea7eaf0599ff50622ab967\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\8be2b7555aea7eaf0599ff50622ab967\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\e569c3c8a20fd9ac99cee0559c52867d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\e569c3c8a20fd9ac99cee0559c52867d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\911e31ad33e1e03d79e5e7b8a503610d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\911e31ad33e1e03d79e5e7b8a503610d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\e07795db60a108e2d2a454a1326568c9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\e07795db60a108e2d2a454a1326568c9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\7ae935e4d4c57ee3730c2c4d23cd7e27\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\7ae935e4d4c57ee3730c2c4d23cd7e27\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6fa0e2512f529beb445fc211872ad264\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6fa0e2512f529beb445fc211872ad264\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\7ec1aac1b7222cd812ca9daeaf1bfeb6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\7ec1aac1b7222cd812ca9daeaf1bfeb6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\743fa5be2b5e406ac80881f147aa9908\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\743fa5be2b5e406ac80881f147aa9908\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\da9f1e2ce60f12e6125f3e00a402ce99\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\da9f1e2ce60f12e6125f3e00a402ce99\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\b31266d37a5e40484939648e580b800e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\b31266d37a5e40484939648e580b800e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4c7e13982e1d18c320bda7d48926a053\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4c7e13982e1d18c320bda7d48926a053\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6ff46b8d1182e950a47fe9a0928458c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6ff46b8d1182e950a47fe9a0928458c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\77ceded4cf96c7c8044d3bace76c06c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\77ceded4cf96c7c8044d3bace76c06c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\7196fd75faa129a968edc0f12730e37f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\7196fd75faa129a968edc0f12730e37f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c3d33cd344264b357b6ebfbe675d7401\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c3d33cd344264b357b6ebfbe675d7401\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\993371f0c25562c2368ae092a3e6f87b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\993371f0c25562c2368ae092a3e6f87b\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c1ad1b55bed9feea3e5da02f5e076249\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c1ad1b55bed9feea3e5da02f5e076249\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\82c2c788976e34714a4d88a3e4a952cd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\82c2c788976e34714a4d88a3e4a952cd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a660e3a90d575c824e93a65050034ad0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a660e3a90d575c824e93a65050034ad0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\1878975db0e40f5b4666c0a23dcd1d03\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\1878975db0e40f5b4666c0a23dcd1d03\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
+activity#com.google.ar.core.InstallActivity
+ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f67bf2f563e5e7c4b2295e7bfd85300\AndroidManifest.xml:33:9-39:80
+	android:excludeFromRecents
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f67bf2f563e5e7c4b2295e7bfd85300\AndroidManifest.xml:36:13-46
+	android:launchMode
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f67bf2f563e5e7c4b2295e7bfd85300\AndroidManifest.xml:38:13-43
+	android:exported
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f67bf2f563e5e7c4b2295e7bfd85300\AndroidManifest.xml:37:13-37
+	android:configChanges
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f67bf2f563e5e7c4b2295e7bfd85300\AndroidManifest.xml:35:13-74
+	android:theme
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f67bf2f563e5e7c4b2295e7bfd85300\AndroidManifest.xml:39:13-77
+	android:name
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f67bf2f563e5e7c4b2295e7bfd85300\AndroidManifest.xml:34:13-62
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f67bf2f563e5e7c4b2295e7bfd85300\AndroidManifest.xml:41:9-43:41
+	android:value
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f67bf2f563e5e7c4b2295e7bfd85300\AndroidManifest.xml:43:13-38
+	android:name
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4f67bf2f563e5e7c4b2295e7bfd85300\AndroidManifest.xml:42:13-62
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a18d696d06611ce89b68607edb5fc4ab\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a18d696d06611ce89b68607edb5fc4ab\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\225a6963ea93f589fc1dd3985b965a32\AndroidManifest.xml:37:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4e83c5574363d09923fe3242ec514491\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4e83c5574363d09923fe3242ec514491\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4e83c5574363d09923fe3242ec514491\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4e83c5574363d09923fe3242ec514491\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4e83c5574363d09923fe3242ec514491\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4e83c5574363d09923fe3242ec514491\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4e83c5574363d09923fe3242ec514491\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4e83c5574363d09923fe3242ec514491\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\4e83c5574363d09923fe3242ec514491\AndroidManifest.xml:34:13-89
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a18d696d06611ce89b68607edb5fc4ab\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c027927832a9ed456d08a11faef9b7e1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c027927832a9ed456d08a11faef9b7e1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a1eeb809309af8e581f51102952ac849\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a1eeb809309af8e581f51102952ac849\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a18d696d06611ce89b68607edb5fc4ab\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a18d696d06611ce89b68607edb5fc4ab\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a18d696d06611ce89b68607edb5fc4ab\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a18d696d06611ce89b68607edb5fc4ab\AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bd741188bab664edb7163663ab7557df\AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6821234001d2632fc680b316cbd9e2fc\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6821234001d2632fc680b316cbd9e2fc\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6821234001d2632fc680b316cbd9e2fc\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6821234001d2632fc680b316cbd9e2fc\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\434997b698580a9924bf25a12ec8d876\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\434997b698580a9924bf25a12ec8d876\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\434997b698580a9924bf25a12ec8d876\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\434997b698580a9924bf25a12ec8d876\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\434997b698580a9924bf25a12ec8d876\AndroidManifest.xml:13:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c027927832a9ed456d08a11faef9b7e1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c027927832a9ed456d08a11faef9b7e1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a1eeb809309af8e581f51102952ac849\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a1eeb809309af8e581f51102952ac849\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c027927832a9ed456d08a11faef9b7e1\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\c027927832a9ed456d08a11faef9b7e1\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a1eeb809309af8e581f51102952ac849\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a1eeb809309af8e581f51102952ac849\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\06788167af8da8cf84e7c0296a31ca9c\AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\7ae935e4d4c57ee3730c2c4d23cd7e27\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\7ae935e4d4c57ee3730c2c4d23cd7e27\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\7ae935e4d4c57ee3730c2c4d23cd7e27\AndroidManifest.xml:24:13-58

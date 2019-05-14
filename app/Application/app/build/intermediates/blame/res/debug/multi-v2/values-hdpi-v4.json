@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rup96\\Desktop\\ARChat\\samples\\VuforiaSamples-8-1-7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rup96\\Desktop\\ARChat\\samples\\VuforiaSamples-8-1-7\\app\\src\\main\\res\\values-hdpi\\dimens.xml",
+                    "source": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\src\\main\\res\\values-hdpi\\dimens.xml",
                     "from": {
                         "startLines": "3,4",
                         "startColumns": "4,4",
@@ -18,6 +18,25 @@
                         "startOffsets": "55,104",
                         "endColumns": "48,49",
                         "endOffsets": "99,149"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\61533b29d9fde6543d85bbc714450709\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "154",
+                        "endLines": "8",
+                        "endColumns": "13",
+                        "endOffsets": "426"
                     }
                 }
             ]

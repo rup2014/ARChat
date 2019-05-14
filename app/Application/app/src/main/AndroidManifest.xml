@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.archat.engine.Chat">
-
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
@@ -22,10 +21,8 @@
          other camera features that you do not request will no longer be
          assumed as required.
     -->
-    <uses-feature android:name="android.hardware.camera" />
-    <!--         Add this permission to get access to the camera. -->
-    <uses-permission android:name="android.permission.CAMERA" />
-    <!--         Add this permission to allow opening network sockets. -->
+    <uses-feature android:name="android.hardware.camera" /> <!-- Add this permission to get access to the camera. -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- Add this permission to allow opening network sockets. -->
     <uses-permission android:name="android.permission.INTERNET" />
     <!--
         Add this permission to check which network access properties (e.g.
@@ -43,8 +40,15 @@
         android:supportsRtl="false"
         android:theme="@style/SampleAppsTheme">
         <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:name=".ui.LoginActivity"
+            android:theme="@style/Theme.AppCompat"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <!-- The following must be present to facilitate use of ARCore, if available -->
         <meta-data
             android:name="com.google.ar.core"
@@ -65,83 +69,26 @@
         -->
         <!-- Splash Screen Activity -->
         <activity
-            android:name="com.archat.engine.Chat.ui.ActivityList.ActivitySplashScreen"
+            android:name=".ui.ActivityList.ActivitySplashScreen"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
             android:noHistory="true"
             android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
-            android:name="com.archat.engine.Chat.ui.ActivityList.ActivityLauncher"
+            android:name=".ui.ActivityList.ActivityLauncher"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.archat.engine.Chat.ui.ActivityList.AboutScreen"
+            android:name=".ui.ActivityList.AboutScreen"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
             android:noHistory="true"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".app.ImageTargets.ImageTargets"
+            android:name=".app.UserDefinedTargets.UserDefinedTargets"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
             android:launchMode="singleTask"
-            android:theme="@style/SampleAppsTheme"></activity>
-        <activity
-            android:name=".app.ModelTargets.ModelTargets"
-            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-            android:launchMode="singleTask"
-            android:screenOrientation="landscape"
-            android:theme="@style/SampleAppsTheme"></activity>
-        <activity
-            android:name=".app.ModelTargetsTrained.ModelTargetsTrained"
-            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-            android:launchMode="singleTask"
-            android:screenOrientation="landscape"
-            android:theme="@style/SampleAppsTheme"></activity>
-        <activity
-            android:name=".app.GroundPlane.GroundPlane"
-            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-            android:launchMode="singleTask"
-            android:screenOrientation="landscape"
-            android:theme="@style/SampleAppsTheme"></activity>
-        <activity
-            android:name=".app.VuMark.VuMark"
-            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-            android:launchMode="singleTask"
-            android:theme="@style/SampleAppsTheme"></activity>
-        <activity
-            android:name=".app.CylinderTargets.CylinderTargets"
-            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-            android:launchMode="singleTask"
-            android:theme="@style/SampleAppsTheme"></activity>
-        <activity
-            android:name=".app.VirtualButtons.VirtualButtons"
-            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-            android:launchMode="singleTask"
-            android:theme="@style/SampleAppsTheme"></activity>
-        <activity
-            android:name="com.archat.engine.Chat.app.UserDefinedTargets.UserDefinedTargets"
-            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-            android:launchMode="singleTask"
-            android:theme="@style/SampleAppsTheme"></activity>
-        <activity
-            android:name=".app.MultiTargets.MultiTargets"
-            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-            android:launchMode="singleTask"
-            android:theme="@style/SampleAppsTheme"></activity>
-        <activity
-            android:name=".app.CloudRecognition.CloudReco"
-            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-            android:launchMode="singleTask"
-            android:theme="@style/SampleAppsTheme"></activity>
-        <activity
-            android:name=".app.ObjectRecognition.ObjectTargets"
-            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-            android:launchMode="singleTask"
-            android:theme="@style/SampleAppsTheme"></activity>
+            android:theme="@style/SampleAppsTheme" />
     </application>
 
 </manifest>

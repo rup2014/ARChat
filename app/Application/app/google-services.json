@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "303031097876",
+    "firebase_url": "https://archat-239821.firebaseio.com",
+    "project_id": "archat-239821",
+    "storage_bucket": "archat-239821.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303031097876:android:b7c060f464d55970",
+        "android_client_info": {
+          "package_name": "com.archat.engine.Chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303031097876-k9p6tbcfs7dksn6u1q5csmca07o0deel.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.archat.engine.Chat",
+            "certificate_hash": "cd8345ea47e1127a79618fd9c3e9f3913088f4af"
+          }
+        },
+        {
+          "client_id": "303031097876-hpmllk32jitu2dpppqkco1dvjgvgijem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp9m3rluDkYSYV2jCIBpfFkouwXI41HWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303031097876-hpmllk32jitu2dpppqkco1dvjgvgijem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
