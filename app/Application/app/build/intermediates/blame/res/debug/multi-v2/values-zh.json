@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rup96\\Desktop\\ARChat\\samples\\VuforiaSamples-8-1-7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "outputFile": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.6.0.aar\\d32acfaf499fbec23f9e17358d37424d\\res\\values-zh\\values.xml",
+                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\4f67bf2f563e5e7c4b2295e7bfd85300\\res\\values-zh\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8",
                         "startColumns": "0,0,0,0,0",
