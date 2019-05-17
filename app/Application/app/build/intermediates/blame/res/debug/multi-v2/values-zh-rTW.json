@@ -1,44 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
+            "outputFile": "/Users/durva/Documents/android demos/ARChat3/app/Application/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\7ae935e4d4c57ee3730c2c4d23cd7e27\\res\\values-zh-rTW\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "161",
-                        "endOffsets": "412"
-                    },
-                    "to": {
-                        "startLines": "32",
-                        "startColumns": "4",
-                        "startOffsets": "3060",
-                        "endColumns": "161",
-                        "endOffsets": "3217"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\4f67bf2f563e5e7c4b2295e7bfd85300\\res\\values-zh-rTW\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "194,237,282,351,422",
-                        "endColumns": "42,44,68,70,56",
-                        "endOffsets": "236,281,350,421,478"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "105,152,201,274,349",
-                        "endColumns": "46,48,72,74,60",
-                        "endOffsets": "147,196,269,344,405"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\61533b29d9fde6543d85bbc714450709\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "/Users/durva/.gradle/caches/transforms-2/files-2.1/6278528f434afd2ec586fe5316f9fe7c/res/values-zh-rTW/values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\c3d33cd344264b357b6ebfbe675d7401\\res\\values-zh-rTW\\values-zh-rTW.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "43",
-                        "startColumns": "4",
-                        "startOffsets": "4424",
-                        "endColumns": "100",
-                        "endOffsets": "4520"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\6821234001d2632fc680b316cbd9e2fc\\res\\values-zh-rTW\\values.xml",
+                    "source": "/Users/durva/.gradle/caches/transforms-2/files-2.1/6543c7f12786ffef125d5dd97add9fce/res/values-zh-rTW/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -86,6 +35,57 @@
                         "startOffsets": "2038,2141,2301,2418,2522,2688,2806,2936,3222,3391,3494,3654,3771,3932,4070,4156,4243",
                         "endColumns": "102,159,116,103,165,117,129,123,168,102,159,116,160,137,85,86,102",
                         "endOffsets": "2136,2296,2413,2517,2683,2801,2931,3055,3386,3489,3649,3766,3927,4065,4151,4238,4341"
+                    }
+                },
+                {
+                    "source": "/Users/durva/.gradle/caches/transforms-2/files-2.1/1ca861f79a307899a746de40ca3f2851/res/values-zh-rTW/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "161",
+                        "endOffsets": "412"
+                    },
+                    "to": {
+                        "startLines": "32",
+                        "startColumns": "4",
+                        "startOffsets": "3060",
+                        "endColumns": "161",
+                        "endOffsets": "3217"
+                    }
+                },
+                {
+                    "source": "/Users/durva/.gradle/caches/transforms-2/files-2.1/a54fbf67d68b6f8e8261881d047a922c/res/values-zh-rTW/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "194,237,282,351,422",
+                        "endColumns": "42,44,68,70,56",
+                        "endOffsets": "236,281,350,421,478"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "105,152,201,274,349",
+                        "endColumns": "46,48,72,74,60",
+                        "endOffsets": "147,196,269,344,405"
+                    }
+                },
+                {
+                    "source": "/Users/durva/.gradle/caches/transforms-2/files-2.1/00d93aa7d391edcc2d5087041c5ee7d7/res/values-zh-rTW/values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "43",
+                        "startColumns": "4",
+                        "startOffsets": "4424",
+                        "endColumns": "100",
+                        "endOffsets": "4520"
                     }
                 }
             ]

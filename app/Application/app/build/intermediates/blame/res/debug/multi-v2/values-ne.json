@@ -1,44 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne\\values-ne.xml",
+            "outputFile": "/Users/durva/Documents/android demos/ARChat3/app/Application/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\4f67bf2f563e5e7c4b2295e7bfd85300\\res\\values-ne\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,245,303,399,496",
-                        "endColumns": "54,57,95,96,68",
-                        "endOffsets": "244,302,398,495,564"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "105,164,226,326,427",
-                        "endColumns": "58,61,99,100,72",
-                        "endOffsets": "159,221,321,422,495"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\c3d33cd344264b357b6ebfbe675d7401\\res\\values-ne\\values-ne.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "43",
-                        "startColumns": "4",
-                        "startOffsets": "5272",
-                        "endColumns": "100",
-                        "endOffsets": "5368"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\61533b29d9fde6543d85bbc714450709\\res\\values-ne\\values-ne.xml",
+                    "source": "/Users/durva/.gradle/caches/transforms-2/files-2.1/6278528f434afd2ec586fe5316f9fe7c/res/values-ne/values-ne.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +21,41 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\7ae935e4d4c57ee3730c2c4d23cd7e27\\res\\values-ne\\values.xml",
+                    "source": "/Users/durva/.gradle/caches/transforms-2/files-2.1/00d93aa7d391edcc2d5087041c5ee7d7/res/values-ne/values-ne.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "43",
+                        "startColumns": "4",
+                        "startOffsets": "5272",
+                        "endColumns": "100",
+                        "endOffsets": "5368"
+                    }
+                },
+                {
+                    "source": "/Users/durva/.gradle/caches/transforms-2/files-2.1/a54fbf67d68b6f8e8261881d047a922c/res/values-ne/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,245,303,399,496",
+                        "endColumns": "54,57,95,96,68",
+                        "endOffsets": "244,302,398,495,564"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "105,164,226,326,427",
+                        "endColumns": "58,61,99,100,72",
+                        "endOffsets": "159,221,321,422,495"
+                    }
+                },
+                {
+                    "source": "/Users/durva/.gradle/caches/transforms-2/files-2.1/1ca861f79a307899a746de40ca3f2851/res/values-ne/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -72,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\6821234001d2632fc680b316cbd9e2fc\\res\\values-ne\\values.xml",
+                    "source": "/Users/durva/.gradle/caches/transforms-2/files-2.1/6543c7f12786ffef125d5dd97add9fce/res/values-ne/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
