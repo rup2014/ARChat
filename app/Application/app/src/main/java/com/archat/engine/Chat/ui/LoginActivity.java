@@ -22,12 +22,18 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class LoginActivity extends AppCompatActivity {
 
     GoogleSignInClient mGoogleSignInClient;
     int RC_SIGN_IN = 100;
     private FirebaseAuth mAuth;
+    private DatabaseReference userRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,9 +41,9 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         Log.d("LoginAct","login activity");
 
-        // Initialize Firebase Auth
+        // Initialize Firebase Auth and db
         mAuth = FirebaseAuth.getInstance();
-
+        userRef = FirebaseDatabase.getInstance().getReference();
         // Configure Google Sign In
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken("303031097876-iooqs7cqhniiupm1v5octpfsjao9o6bn.apps.googleusercontent.com")
@@ -105,6 +111,11 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
+    private void writeNewUser(String name, String userId, String email) {
+        User user = new User(name, userId, email);
+        userRef.child("users").child(userId).setValue(user);
+    }
+
     private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
         Log.d("firebase acc id", "firebaseAuthWithGoogle:" + acct.getId());
 
@@ -116,13 +127,30 @@ public class LoginActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d("success Signin", "signInWithCredential:success");
-                            FirebaseUser user = mAuth.getCurrentUser();
-                            updateUI(user);
+                            final FirebaseUser user = mAuth.getCurrentUser();
+                            // Check if user exists in DB. If he/she does then do not call writeNewUser.
+                            userRef.child("users").child(user.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
+                                @Override
+                                public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                                    if(dataSnapshot.getValue() != null){
+                                        updateUI(user);
+                                    }
+                                    else{
+                                        writeNewUser(user.getDisplayName(),user.getUid(),user.getEmail());
+                                        updateUI(user);
+                                    }
+                                }
+
+                                @Override
+                                public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                                }
+                            });
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w("fail signin", "signInWithCredential:failure", task.getException());
                             Snackbar.make(findViewById(R.id.login_activity), "Authentication Failed.", Snackbar.LENGTH_SHORT).show();
-                            updateUI(null);
+                            //updateUI(null);
                         }
 
                         // ...

@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 #Thu May 16 23:33:19 PDT 2019
 path.1=classes.dex
+=======
+#Fri May 17 12:08:35 PDT 2019
+base.0=C\:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+>>>>>>> dc16f972bc1153a987d930246bbe4be6524cc52d
 path.0=classes.dex
 renamed.10=classes11.dex
 renamed.9=classes10.dex
