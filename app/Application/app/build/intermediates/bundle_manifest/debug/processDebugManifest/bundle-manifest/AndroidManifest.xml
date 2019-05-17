@@ -48,8 +48,11 @@
         android:label="@string/app_name"
         android:launchMode="singleTask"
         android:supportsRtl="false"
-        android:testOnly="true"
         android:theme="@style/SampleAppsTheme" >
+        <activity
+            android:name="com.archat.engine.Chat.ui.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/SampleAppsTheme.NoActionBar" />
         <activity
             android:name="com.archat.engine.Chat.ui.LoginActivity"
             android:theme="@style/Theme.AppCompat" >
@@ -58,8 +61,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <!-- The following must be present to facilitate use of ARCore, if available -->
+        </activity> <!-- The following must be present to facilitate use of ARCore, if available -->
         <meta-data
             android:name="com.google.ar.core"
             android:value="optional" />
@@ -82,8 +84,7 @@
             android:name="com.archat.engine.Chat.ui.ActivityList.ActivitySplashScreen"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
             android:noHistory="true"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.archat.engine.Chat.ui.ActivityList.ActivityLauncher"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
@@ -205,11 +206,6 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
-        <provider
-            android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.archat.engine.Chat.com.android.tools.ir.server.InstantRunContentProvider"
-            android:multiprocess="true" />
     </application>
 
 </manifest>

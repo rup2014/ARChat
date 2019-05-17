@@ -41,6 +41,7 @@ MERGED from [com.android.support:transition:27.1.1] /Users/durva/.gradle/caches/
 MERGED from [com.android.support:support-media-compat:27.1.1] /Users/durva/.gradle/caches/transforms-2/files-2.1/049d23c72641f8fce58885c15db7ef7d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] /Users/durva/.gradle/caches/transforms-2/files-2.1/00d93aa7d391edcc2d5087041c5ee7d7/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/durva/.gradle/caches/transforms-2/files-2.1/0c5ec37694d52555831ab2cee25824b6/AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/durva/.gradle/caches/transforms-2/files-2.1/8ef9a76cbcc644d7c4aeb8e865b08ccf/AndroidManifest.xml:2:1-11:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/durva/.gradle/caches/transforms-2/files-2.1/a00be7b43dbb4c60d1951d4ce6f0001f/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/durva/.gradle/caches/transforms-2/files-2.1/8b38a51c506b9da5958ffb6f9c80b53c/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/durva/.gradle/caches/transforms-2/files-2.1/bdfb373d8daf16c84a1f6af63466c6f1/AndroidManifest.xml:17:1-22:12
@@ -164,6 +165,8 @@ MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/durva/
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/durva/.gradle/caches/transforms-2/files-2.1/1ca861f79a307899a746de40ca3f2851/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/durva/.gradle/caches/transforms-2/files-2.1/0c5ec37694d52555831ab2cee25824b6/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/durva/.gradle/caches/transforms-2/files-2.1/0c5ec37694d52555831ab2cee25824b6/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/durva/.gradle/caches/transforms-2/files-2.1/8ef9a76cbcc644d7c4aeb8e865b08ccf/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/durva/.gradle/caches/transforms-2/files-2.1/8ef9a76cbcc644d7c4aeb8e865b08ccf/AndroidManifest.xml:9:5-20
 	android:supportsRtl
 		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:40:9-36
 	android:label
@@ -178,38 +181,46 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/durv
 		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:36:9-54
 	android:theme
 		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:41:9-47
-activity#com.archat.engine.Chat.ui.LoginActivity
-ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:42:9-51:20
+activity#com.archat.engine.Chat.ui.ProfileActivity
+ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:42:9-45:75
+	android:label
+		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:44:13-59
 	android:theme
-		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:44:13-51
+		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:45:13-63
 	android:name
-		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:43:13-45
+		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:43:13-47
+activity#com.archat.engine.Chat.ui.LoginActivity
+ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:46:9-54:20
+	android:theme
+		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:48:13-51
+	android:name
+		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:47:13-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:46:13-50:29
+ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:49:13-53:29
 action#android.intent.action.MAIN
-ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:47:17-69
+ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:50:17-69
 	android:name
-		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:47:25-66
+		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:50:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:49:17-77
+ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:52:17-77
 	android:name
-		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:49:27-74
+		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:52:27-74
 meta-data#com.google.ar.core
-ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:53:9-55:40
+ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:55:9-57:40
 	android:value
-		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:55:13-37
+		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:57:13-37
 	android:name
-		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:54:13-46
+		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:56:13-46
 activity#com.archat.engine.Chat.ui.ActivityList.ActivitySplashScreen
-ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:71:9-77:20
+ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:73:9-77:52
 	android:screenOrientation
-		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:75:13-49
+		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:77:13-49
 	android:noHistory
-		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:74:13-37
+		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:76:13-37
 	android:configChanges
-		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:73:13-93
+		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:75:13-93
 	android:name
-		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:72:13-65
+		ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:74:13-65
 activity#com.archat.engine.Chat.ui.ActivityList.ActivityLauncher
 ADDED from /Users/durva/Documents/android demos/ARChat3/app/Application/app/src/main/AndroidManifest.xml:78:9-81:52
 	android:screenOrientation
@@ -316,6 +327,8 @@ MERGED from [com.android.support:support-compat:27.1.1] /Users/durva/.gradle/cac
 MERGED from [com.android.support:support-compat:27.1.1] /Users/durva/.gradle/caches/transforms-2/files-2.1/00d93aa7d391edcc2d5087041c5ee7d7/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/durva/.gradle/caches/transforms-2/files-2.1/0c5ec37694d52555831ab2cee25824b6/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/durva/.gradle/caches/transforms-2/files-2.1/0c5ec37694d52555831ab2cee25824b6/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/durva/.gradle/caches/transforms-2/files-2.1/8ef9a76cbcc644d7c4aeb8e865b08ccf/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/durva/.gradle/caches/transforms-2/files-2.1/8ef9a76cbcc644d7c4aeb8e865b08ccf/AndroidManifest.xml:5:5-7:41
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/durva/.gradle/caches/transforms-2/files-2.1/a00be7b43dbb4c60d1951d4ce6f0001f/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/durva/.gradle/caches/transforms-2/files-2.1/a00be7b43dbb4c60d1951d4ce6f0001f/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/durva/.gradle/caches/transforms-2/files-2.1/8b38a51c506b9da5958ffb6f9c80b53c/AndroidManifest.xml:20:5-44
