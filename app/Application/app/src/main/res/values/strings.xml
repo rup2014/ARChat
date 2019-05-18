@@ -105,6 +105,7 @@
     <string name="lander_tracking_status">Lander tracking status</string>
     <string name="bike_tracking_status">Bike tracking status</string>
     <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_profile">ProfileActivity</string>
     <!-- Strings related to login -->
     <!--<string name="default_web_client_id">303031097876-iooqs7cqhniiupm1v5octpfsjao9o6bn.apps.googleusercontent.com</string>-->
 
