@@ -6,8 +6,8 @@
     android:versionName="8.1" >
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="27" />
+        android:minSdkVersion="21"
+        android:targetSdkVersion="24" />
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
@@ -43,6 +43,7 @@
 
     <application
         android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
         android:description="@string/app_description"
         android:icon="@drawable/icon"
@@ -52,6 +53,10 @@
         android:testOnly="true"
         android:theme="@style/SampleAppsTheme" >
         <activity
+            android:name="com.archat.engine.Chat.ui.ChatActivity"
+            android:theme="@style/Theme.AppCompat" >
+        </activity>
+        <activity
             android:name="com.archat.engine.Chat.ui.LoginActivity"
             android:theme="@style/Theme.AppCompat" >
             <intent-filter>
@@ -59,8 +64,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <!-- The following must be present to facilitate use of ARCore, if available -->
+        </activity> <!-- The following must be present to facilitate use of ARCore, if available -->
         <meta-data
             android:name="com.google.ar.core"
             android:value="optional" />
@@ -83,8 +87,7 @@
             android:name="com.archat.engine.Chat.ui.ActivityList.ActivitySplashScreen"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
             android:noHistory="true"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.archat.engine.Chat.ui.ActivityList.ActivityLauncher"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
@@ -127,6 +130,9 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"

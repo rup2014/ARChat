@@ -2,22 +2,24 @@ package com.archat.engine.Chat.ui;
 
 public class MessageModel {
     public String chatId = "";
-    public String messageId;
     public String senderId;
+    public String senderName;
     public String message = "";
     public String messageType;
     public String mediaUrl = "";
+    public String photoUrl = "";
     public long timeStamp;
 
     public MessageModel(){}
 
-    public MessageModel(String chatId, String messageId, String senderId, String messageText, String messageType, String mediaUrl, long timeStamp){
+    public MessageModel(String chatId, String senderId, String senderName,String messageText, String messageType, String mediaUrl, String photoUrl,long timeStamp){
         this.chatId = chatId;
-        this.messageId = messageId;
         this.senderId = senderId;
+        this.senderName = senderName;
         this.message = messageText;
         this.messageType = messageType;
         this.mediaUrl = mediaUrl;
+        this.photoUrl = photoUrl;
         this.timeStamp = timeStamp;
     }
 
@@ -29,12 +31,16 @@ public class MessageModel {
         this.mediaUrl = mediaUrl;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public String getSenderName() {
+        return senderName;
     }
 
-    public void setMessageId(String messageId) {
-        this.messageId = messageId;
+    public void setSenderName(String senderName) {
+        this.senderName = senderName;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 
     public void setMessageType(String messageType) {
@@ -43,6 +49,14 @@ public class MessageModel {
 
     public void setSenderId(String senderId) {
         this.senderId = senderId;
+    }
+
+    public void setPhotoUrl(String photoUrl) {
+        this.photoUrl = photoUrl;
+    }
+
+    public String getPhotoUrl() {
+        return photoUrl;
     }
 
     public void setTimeStamp(long timeStamp) {
@@ -63,10 +77,6 @@ public class MessageModel {
 
     public String getMessage() {
         return message;
-    }
-
-    public String getMessageId() {
-        return messageId;
     }
 
     public String getMessageType() {
