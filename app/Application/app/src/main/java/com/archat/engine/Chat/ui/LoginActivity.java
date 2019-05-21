@@ -111,8 +111,8 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
-    private void writeNewUser(String name, String userId, String email) {
-        User user = new User(name, userId, email);
+    private void writeNewUser(String name, String userId, String email, String photoUrl) {
+        User user = new User(name, userId, email, photoUrl);
         userRef.child("users").child(userId).setValue(user);
     }
 
@@ -136,7 +136,7 @@ public class LoginActivity extends AppCompatActivity {
                                         updateUI(user);
                                     }
                                     else{
-                                        writeNewUser(user.getDisplayName(),user.getUid(),user.getEmail());
+                                        writeNewUser(user.getDisplayName(),user.getUid(),user.getEmail(),user.getPhotoUrl().toString());
                                         updateUI(user);
                                     }
                                 }
@@ -159,7 +159,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void updateUI(FirebaseUser account){
-        Intent splashIntent = new Intent(this, com.archat.engine.Chat.ui.ActivityList.ActivitySplashScreen.class);
+        Intent splashIntent = new Intent(this, com.archat.engine.Chat.ui.ChatActivity.class);
         splashIntent.putExtra("googleAcount",account);
         startActivity(splashIntent);
     }

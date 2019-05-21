@@ -40,16 +40,18 @@
         android:supportsRtl="false"
         android:theme="@style/SampleAppsTheme">
         <activity
+            android:name=".ui.ChatActivity"
+            android:theme="@style/Theme.AppCompat">
+        </activity>
+        <activity
             android:name=".ui.LoginActivity"
-            android:theme="@style/Theme.AppCompat"
-            >
+            android:theme="@style/Theme.AppCompat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <!-- The following must be present to facilitate use of ARCore, if available -->
+        </activity> <!-- The following must be present to facilitate use of ARCore, if available -->
         <meta-data
             android:name="com.google.ar.core"
             android:value="optional" />
@@ -72,9 +74,7 @@
             android:name=".ui.ActivityList.ActivitySplashScreen"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
             android:noHistory="true"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".ui.ActivityList.ActivityLauncher"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"

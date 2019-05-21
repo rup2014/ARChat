@@ -19,20 +19,20 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int __arcore_education = 0x7f0a0000;
+        public static final int __arcore_education = 0x7f0b0000;
     }
     public static final class raw {
         private raw() {}
 
-        public static final int keep = 0x7f0b0000;
+        public static final int keep = 0x7f0c0000;
     }
     public static final class string {
         private string() {}
 
-        public static final int __arcore_cancel = 0x7f0c001f;
-        public static final int __arcore_continue = 0x7f0c0020;
-        public static final int __arcore_install_app = 0x7f0c0021;
-        public static final int __arcore_install_feature = 0x7f0c0022;
-        public static final int __arcore_installing = 0x7f0c0023;
+        public static final int __arcore_cancel = 0x7f0d001f;
+        public static final int __arcore_continue = 0x7f0d0020;
+        public static final int __arcore_install_app = 0x7f0d0021;
+        public static final int __arcore_install_feature = 0x7f0d0022;
+        public static final int __arcore_installing = 0x7f0d0023;
     }
 }
