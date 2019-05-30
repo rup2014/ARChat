@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="16"
-        android:targetSdkVersion="27" />
+        android:targetSdkVersion="28" />
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
@@ -42,6 +42,7 @@
 
     <application
         android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
         android:description="@string/app_description"
         android:icon="@drawable/icon"
@@ -58,8 +59,14 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity> <!-- The following must be present to facilitate use of ARCore, if available -->
+
+        <activity
+            android:name="com.archat.engine.Chat.ui.ChatRoomListActivity"
+            android:label="ChatRoomListActivity"
+            android:theme="@style/SampleAppsTheme.NoActionBar" >
         </activity>
-        <!-- The following must be present to facilitate use of ARCore, if available -->
+
         <meta-data
             android:name="com.google.ar.core"
             android:value="optional" />
@@ -82,8 +89,7 @@
             android:name="com.archat.engine.Chat.ui.ActivityList.ActivitySplashScreen"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
             android:noHistory="true"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.archat.engine.Chat.ui.ActivityList.ActivityLauncher"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"

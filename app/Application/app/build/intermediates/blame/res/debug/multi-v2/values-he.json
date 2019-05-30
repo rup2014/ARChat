@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
+            "outputFile": "C:\\Users\\Hamilton\\Box Sync\\UCSB\\ECE 150\\ARChat\\ARChat\\app\\Application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\4f67bf2f563e5e7c4b2295e7bfd85300\\res\\values-he\\values.xml",
+                    "source": "C:\\Users\\Hamilton\\.gradle\\caches\\transforms-2\\files-2.1\\017facb0f153bd8781642f8d06358c0f\\res\\values-he\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8",
                         "startColumns": "0,0,0,0,0",

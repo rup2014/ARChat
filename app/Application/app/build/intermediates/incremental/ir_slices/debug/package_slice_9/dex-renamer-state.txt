@@ -1,0 +1,4 @@
+#Wed May 29 18:35:41 PDT 2019
+base.0=C\:\\Users\\Hamilton\\Box Sync\\UCSB\\ECE 150\\ARChat\\ARChat\\app\\Application\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex

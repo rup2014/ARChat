@@ -1,4 +1,4 @@
-#Fri May 17 12:08:35 PDT 2019
-base.0=C\:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+#Wed May 29 19:11:33 PDT 2019
+base.0=C\:\\Users\\Hamilton\\Box Sync\\UCSB\\ECE 150\\ARChat\\ARChat\\app\\Application\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 path.0=classes.dex
 renamed.0=classes.dex

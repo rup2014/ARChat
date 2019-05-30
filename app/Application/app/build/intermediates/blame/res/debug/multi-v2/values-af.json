@@ -1,61 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-af\\values-af.xml",
+            "outputFile": "C:\\Users\\Hamilton\\Box Sync\\UCSB\\ECE 150\\ARChat\\ARChat\\app\\Application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-af\\values-af.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\61533b29d9fde6543d85bbc714450709\\res\\values-af\\values-af.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,209,309,415,500,603,721,797,874,955,1062,1165,1262,1370,1472,1574,1728,1826",
-                        "endColumns": "103,99,105,84,102,117,75,76,80,106,102,96,107,101,101,153,97,79",
-                        "endOffsets": "204,304,410,495,598,716,792,869,950,1057,1160,1257,1365,1467,1569,1723,1821,1901"
-                    },
-                    "to": {
-                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,42",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "504,608,708,814,899,1002,1120,1196,1273,1354,1461,1564,1661,1769,1871,1973,2127,4910",
-                        "endColumns": "103,99,105,84,102,117,75,76,80,106,102,96,107,101,101,153,97,79",
-                        "endOffsets": "603,703,809,894,997,1115,1191,1268,1349,1456,1559,1656,1764,1866,1968,2122,2220,4985"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\c3d33cd344264b357b6ebfbe675d7401\\res\\values-af\\values-af.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "43",
-                        "startColumns": "4",
-                        "startOffsets": "4990",
-                        "endColumns": "100",
-                        "endOffsets": "5086"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\6821234001d2632fc680b316cbd9e2fc\\res\\values-af\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,350,538,662,770,979,1099,1246,1373,1598,1704,1892,2017,2215,2395,2487,2576",
-                        "endColumns": "104,187,123,107,208,119,146,126,224,105,187,124,197,179,91,88,103",
-                        "endOffsets": "349,537,661,769,978,1098,1245,1372,1597,1703,1891,2016,2214,2394,2486,2575,2679"
-                    },
-                    "to": {
-                        "startLines": "24,25,26,27,28,29,30,31,33,34,35,36,37,38,39,40,41",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2225,2334,2522,2650,2762,2971,3095,3246,3579,3804,3914,4102,4231,4429,4613,4709,4802",
-                        "endColumns": "108,187,127,111,208,123,150,130,224,109,187,128,197,183,95,92,107",
-                        "endOffsets": "2329,2517,2645,2757,2966,3090,3241,3372,3799,3909,4097,4226,4424,4608,4704,4797,4905"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\4f67bf2f563e5e7c4b2295e7bfd85300\\res\\values-af\\values.xml",
+                    "source": "C:\\Users\\Hamilton\\.gradle\\caches\\transforms-2\\files-2.1\\017facb0f153bd8781642f8d06358c0f\\res\\values-af\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8",
                         "startColumns": "0,0,0,0,0",
@@ -72,7 +21,41 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\7ae935e4d4c57ee3730c2c4d23cd7e27\\res\\values-af\\values.xml",
+                    "source": "C:\\Users\\Hamilton\\.gradle\\caches\\transforms-2\\files-2.1\\03eb38391b7f42d161d7923c84141846\\res\\values-af\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,350,538,662,770,979,1099,1246,1373,1598,1704,1892,2017,2215,2395,2487,2576",
+                        "endColumns": "104,187,123,107,208,119,146,126,224,105,187,124,197,179,91,88,103",
+                        "endOffsets": "349,537,661,769,978,1098,1245,1372,1597,1703,1891,2016,2214,2394,2486,2575,2679"
+                    },
+                    "to": {
+                        "startLines": "34,35,36,37,38,39,40,41,43,44,45,46,47,48,49,50,51",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3175,3284,3472,3600,3712,3921,4045,4196,4529,4754,4864,5052,5181,5379,5563,5659,5752",
+                        "endColumns": "108,187,127,111,208,123,150,130,224,109,187,128,197,183,95,92,107",
+                        "endOffsets": "3279,3467,3595,3707,3916,4040,4191,4322,4749,4859,5047,5176,5374,5558,5654,5747,5855"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hamilton\\.gradle\\caches\\transforms-2\\files-2.1\\2b3638c9573558657e52f103af38e579\\res\\values-af\\values-af.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,309,415,500,603,721,797,874,965,1058,1154,1248,1348,1441,1536,1635,1730,1824,1905,2012,2115,2212,2320,2422,2524,2678,2776",
+                        "endColumns": "103,99,105,84,102,117,75,76,90,92,95,93,99,92,94,98,94,93,80,106,102,96,107,101,101,153,97,79",
+                        "endOffsets": "204,304,410,495,598,716,792,869,960,1053,1149,1243,1343,1436,1531,1630,1725,1819,1900,2007,2110,2207,2315,2417,2519,2673,2771,2851"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,52",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "504,608,708,814,899,1002,1120,1196,1273,1364,1457,1553,1647,1747,1840,1935,2034,2129,2223,2304,2411,2514,2611,2719,2821,2923,3077,5860",
+                        "endColumns": "103,99,105,84,102,117,75,76,90,92,95,93,99,92,94,98,94,93,80,106,102,96,107,101,101,153,97,79",
+                        "endOffsets": "603,703,809,894,997,1115,1191,1268,1359,1452,1548,1642,1742,1835,1930,2029,2124,2218,2299,2406,2509,2606,2714,2816,2918,3072,3170,5935"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hamilton\\.gradle\\caches\\transforms-2\\files-2.1\\daa3eff20b5ba19af2c2077cfcbb7f92\\res\\values-af\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -81,11 +64,28 @@
                         "endOffsets": "448"
                     },
                     "to": {
-                        "startLines": "32",
+                        "startLines": "42",
                         "startColumns": "4",
-                        "startOffsets": "3377",
+                        "startOffsets": "4327",
                         "endColumns": "201",
-                        "endOffsets": "3574"
+                        "endOffsets": "4524"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hamilton\\.gradle\\caches\\transforms-2\\files-2.1\\45fc1e37060dcd41282b05806bd0c19d\\res\\values-af\\values-af.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "53",
+                        "startColumns": "4",
+                        "startOffsets": "5940",
+                        "endColumns": "100",
+                        "endOffsets": "6036"
                     }
                 }
             ]

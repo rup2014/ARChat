@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "C:\\Users\\Hamilton\\Box Sync\\UCSB\\ECE 150\\ARChat\\ARChat\\app\\Application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\src\\main\\res\\values-hdpi\\dimens.xml",
+                    "source": "C:\\Users\\Hamilton\\Box Sync\\UCSB\\ECE 150\\ARChat\\ARChat\\app\\Application\\app\\src\\main\\res\\values-hdpi\\dimens.xml",
                     "from": {
                         "startLines": "3,4",
                         "startColumns": "4,4",
-                        "startOffsets": "56,105",
+                        "startOffsets": "59,109",
                         "endColumns": "48,49",
-                        "endOffsets": "100,150"
+                        "endOffsets": "103,154"
                     },
                     "to": {
                         "startLines": "2,3",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\61533b29d9fde6543d85bbc714450709\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\Hamilton\\.gradle\\caches\\transforms-2\\files-2.1\\2b3638c9573558657e52f103af38e579\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
