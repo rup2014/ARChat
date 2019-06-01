@@ -542,7 +542,7 @@ public class UserDefinedTargets extends SampleActivityBase implements
                     Log.d(LOGTAG, "TRYING " + name);
                     targetBuilderCounter++;
                 } while (!targetBuilder.build(name, .32f));
-                
+
                 refFreeFrame.setCreating();
             }
         }

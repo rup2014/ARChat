@@ -53,9 +53,12 @@
         android:testOnly="true"
         android:theme="@style/SampleAppsTheme" >
         <activity
+            android:name="com.archat.engine.Chat.ui.ChatRoomList"
+            android:label="@string/title_activity_chat_room_list"
+            android:theme="@style/MyTheme.NoActionBar" />
+        <activity
             android:name="com.archat.engine.Chat.ui.ChatActivity"
-            android:theme="@style/Theme.AppCompat" >
-        </activity>
+            android:theme="@style/Theme.AppCompat" />
         <activity
             android:name="com.archat.engine.Chat.ui.LoginActivity"
             android:theme="@style/Theme.AppCompat" >

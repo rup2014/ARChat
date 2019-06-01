@@ -24,15 +24,15 @@ public final class R {
     public static final class raw {
         private raw() {}
 
-        public static final int keep = 0x7f0c0000;
+        public static final int keep = 0x7f0d0000;
     }
     public static final class string {
         private string() {}
 
-        public static final int __arcore_cancel = 0x7f0d001f;
-        public static final int __arcore_continue = 0x7f0d0020;
-        public static final int __arcore_install_app = 0x7f0d0021;
-        public static final int __arcore_install_feature = 0x7f0d0022;
-        public static final int __arcore_installing = 0x7f0d0023;
+        public static final int __arcore_cancel = 0x7f0e001f;
+        public static final int __arcore_continue = 0x7f0e0020;
+        public static final int __arcore_install_app = 0x7f0e0021;
+        public static final int __arcore_install_feature = 0x7f0e0022;
+        public static final int __arcore_installing = 0x7f0e0023;
     }
 }
