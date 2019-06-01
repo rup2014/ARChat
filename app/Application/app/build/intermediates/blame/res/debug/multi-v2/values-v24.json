@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\a713d2a28dea6bd2db6304083cddb7d6\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\8a2a6e88b91a75695a23ceee7d10fe72\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\701afea012ed05af6b6469d9eece81c2\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\1cc53e95f7578cc5ec2f5dd57c7978e8\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

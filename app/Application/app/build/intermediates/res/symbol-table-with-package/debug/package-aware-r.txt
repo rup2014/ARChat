@@ -618,6 +618,9 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -854,6 +857,7 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -925,6 +929,8 @@ dimen mtrl_textinput_box_stroke_width_default
 dimen mtrl_textinput_box_stroke_width_focused
 dimen mtrl_textinput_outline_box_expanded_padding
 dimen mtrl_toolbar_default_height
+dimen nav_header_height
+dimen nav_header_vertical_spacing
 dimen notification_action_icon_size
 dimen notification_action_text_size
 dimen notification_big_circle_margin
@@ -1091,6 +1097,12 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_menu_camera
+drawable ic_menu_gallery
+drawable ic_menu_manage
+drawable ic_menu_send
+drawable ic_menu_share
+drawable ic_menu_slideshow
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
@@ -1129,6 +1141,7 @@ drawable selector_btn_astro
 drawable selector_btn_drone
 drawable selector_btn_product
 drawable selector_btn_reset
+drawable side_nav_bar
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable vuforia_splash
@@ -1160,6 +1173,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_settings
 id action_text
 id actions
 id activities_list_title
@@ -1219,6 +1233,7 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id drawer_layout
 id edit_query
 id end
 id end_padder
@@ -1227,6 +1242,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1246,6 +1262,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView
 id info
 id initial_screen_and_text
 id initial_screen_bike_image
@@ -1291,6 +1308,13 @@ id mode_indicator
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id nav_gallery
+id nav_home
+id nav_send
+id nav_share
+id nav_slideshow
+id nav_tools
+id nav_view
 id navigation_header_container
 id never
 id none
@@ -1374,6 +1398,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_password_toggle
 id text_type
 id text_value
@@ -1384,6 +1409,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toolbar
 id top
 id topPanel
 id topbar_layout
@@ -1458,7 +1484,9 @@ layout about_screen
 layout activities_list
 layout activities_list_text_view
 layout activity_chat
+layout activity_chat_room_list
 layout activity_login
+layout app_bar_chat_room_list
 layout camera_overlay
 layout camera_overlay_ground_plane
 layout camera_overlay_model_targets
@@ -1467,6 +1495,7 @@ layout camera_overlay_reticle
 layout camera_overlay_udt
 layout camera_overlay_with_scanline
 layout card
+layout content_chat_room_list
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1484,6 +1513,7 @@ layout design_text_input_password_icon
 layout message_layout
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
+layout nav_header_chat_room_list
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -1510,6 +1540,8 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout splash_screen
 layout support_simple_spinner_dropdown_item
+menu activity_chat_room_list_drawer
+menu chat_room_list
 raw keep
 string INIT_ERROR
 string INIT_ERROR_DEVICE_NOT_SUPPORTED
@@ -1586,6 +1618,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_settings
 string activities_list_empty
 string activities_list_title_string
 string and
@@ -1672,13 +1705,24 @@ string menu_device_tracker
 string menu_flash
 string menu_flash_error_off
 string menu_flash_error_on
+string menu_gallery
+string menu_home
 string menu_next_guide_view
+string menu_send
+string menu_share
+string menu_slideshow
+string menu_tools
 string menu_versions
 string menu_virtual_buttons
 string mode_description
 string mode_mid_air
 string mode_product_placement
 string mtrl_chip_close_icon_content_description
+string nav_header_desc
+string nav_header_subtitle
+string nav_header_title
+string navigation_drawer_close
+string navigation_drawer_open
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -1690,6 +1734,7 @@ string splash_screen_description
 string status_bar_notification_info_overflow
 string target_quality_error_desc
 string target_quality_error_title
+string title_activity_chat_room_list
 string title_activity_login
 string version_android
 string version_vuforia
@@ -1890,6 +1935,10 @@ style Base_Widget_MaterialComponents_TextInputLayout
 style CardView
 style CardView_Dark
 style CardView_Light
+style MyTheme
+style MyTheme_AppBarOverlay
+style MyTheme_NoActionBar
+style MyTheme_PopupOverlay
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents
@@ -1922,6 +1971,7 @@ style RtlOverlay_Widget_AppCompat_SearchView_MagIcon
 style RtlUnderlay_Widget_AppCompat_ActionButton
 style RtlUnderlay_Widget_AppCompat_ActionButton_Overflow
 style SampleAppsTheme
+style SampleAppsTheme_NoActionBar
 style TextAppearance_AppCompat
 style TextAppearance_AppCompat_Body1
 style TextAppearance_AppCompat_Body2

@@ -159,7 +159,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void updateUI(FirebaseUser account){
-        Intent splashIntent = new Intent(this, com.archat.engine.Chat.ui.ChatActivity.class);
+        Intent splashIntent = new Intent(this, com.archat.engine.Chat.ui.ChatRoomList.class);
         splashIntent.putExtra("googleAcount",account);
         startActivity(splashIntent);
     }

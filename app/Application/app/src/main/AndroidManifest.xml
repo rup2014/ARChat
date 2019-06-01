@@ -40,9 +40,12 @@
         android:supportsRtl="false"
         android:theme="@style/SampleAppsTheme">
         <activity
+            android:name=".ui.ChatRoomList"
+            android:label="@string/title_activity_chat_room_list"
+            android:theme="@style/MyTheme.NoActionBar"></activity>
+        <activity
             android:name=".ui.ChatActivity"
-            android:theme="@style/Theme.AppCompat">
-        </activity>
+            android:theme="@style/Theme.AppCompat"></activity>
         <activity
             android:name=".ui.LoginActivity"
             android:theme="@style/Theme.AppCompat">
@@ -74,7 +77,7 @@
             android:name=".ui.ActivityList.ActivitySplashScreen"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
             android:noHistory="true"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.ActivityList.ActivityLauncher"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
