@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_toolbar.xml.flat",
-        "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\8a2a6e88b91a75695a23ceee7d10fe72\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
         "merged": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
         "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\1cc53e95f7578cc5ec2f5dd57c7978e8\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_toolbar.xml.flat",
+        "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\8a2a6e88b91a75695a23ceee7d10fe72\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bike_status_recognized.png.flat",
@@ -16,12 +16,12 @@
         "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\8a2a6e88b91a75695a23ceee7d10fe72\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_searching_reticle.png.flat",
-        "source": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\src\\main\\res\\drawable-xxhdpi\\searching_reticle.png"
-    },
-    {
         "merged": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\8a2a6e88b91a75695a23ceee7d10fe72\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_searching_reticle.png.flat",
+        "source": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\src\\main\\res\\drawable-xxhdpi\\searching_reticle.png"
     },
     {
         "merged": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_full_open_on_phone.png.flat",

@@ -9,9 +9,15 @@ countries.
 
 package com.archat.engine.Chat.app.UserDefinedTargets;
 
+import android.content.Context;
+import android.content.ContextWrapper;
+import android.graphics.Bitmap;
 import android.opengl.GLES20;
 import android.opengl.Matrix;
+import android.provider.MediaStore;
+import android.util.DisplayMetrics;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.archat.engine.SampleApplication.SampleAppRenderer;
 import com.archat.engine.SampleApplication.SampleAppRendererControl;
@@ -32,7 +38,12 @@ import com.vuforia.Vuforia;
 import com.archat.engine.SampleApplication.SampleApplicationSession;
 import com.archat.engine.SampleApplication.SampleRendererBase;
 import com.archat.engine.SampleApplication.utils.Teapot;
+import com.vuforia.ar.pl.DebugLog;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.nio.IntBuffer;
+import java.util.Date;
 import java.util.Vector;
 
 
@@ -51,12 +62,16 @@ public class UserDefinedTargetRenderer extends SampleRendererBase implements Sam
     private int mvpMatrixHandle;
     private int texSampler2DHandle;
 
+    // Variables for screenshot
+    private int mViewWidth = 0;
+    private int mViewHeight = 0;
+
     private static final float kObjectScale = .003f;
 
     // Object to be rendered
     private Teapot mTeapot;
 
-    private final UserDefinedTargets mActivity;
+    private UserDefinedTargets mActivity;
 
     private boolean mIsTargetCurrentlyTracked = false;
     
@@ -133,10 +148,20 @@ public class UserDefinedTargetRenderer extends SampleRendererBase implements Sam
                SampleUtils.checkGLError("UserDefinedTargets renderFrame");
             }
         }
-        
+
+        DisplayMetrics metrics = new DisplayMetrics();
+        mActivity.getWindowManager().getDefaultDisplay().getMetrics(metrics);
+        mViewWidth = metrics.widthPixels;
+        mViewHeight = metrics.heightPixels;
+
         GLES20.glDisable(GLES20.GL_DEPTH_TEST);
         
         Renderer.getInstance().end();
+
+        if(mActivity.saveClicked){
+            saveScreenShot(0,0,mViewWidth,mViewHeight);
+            mActivity.saveClicked = false;
+        }
     }
 
 
@@ -254,6 +279,54 @@ public class UserDefinedTargetRenderer extends SampleRendererBase implements Sam
         mIsTargetCurrentlyTracked = false;
     }
 
+    private void saveScreenShot(int x, int y, int w, int h) {
+        Bitmap bmp = grabPixels(x, y, w, h);
+        try {
+            Date now = new Date();
+            android.text.format.DateFormat.format("yyyy-MM-dd_hh:mm:ss", now);
+            // image naming and path  to include sd card  appending name you choose for file
+            ContextWrapper cw = new ContextWrapper(mActivity.getApplicationContext());
+            // path to /data/data/yourapp/app_data/imageDir
+            String fileName = now.toString() + ".jpg";
+            File directory = cw.getDir("imageDir", Context.MODE_PRIVATE);
+
+            DebugLog.LOGD("filename",fileName);
+
+            File file = new File(directory,fileName);
+            file.createNewFile();
+
+            FileOutputStream fos = new FileOutputStream(file);
+            bmp.compress(Bitmap.CompressFormat.PNG, 100, fos);
+            MediaStore.Images.Media.insertImage(mActivity.getContentResolver(), bmp, now.toString() , "none");
+            fos.flush();
+            fos.close();
+
+        } catch (Exception e) {
+            DebugLog.LOGD("Exception UDT",e.getStackTrace().toString());
+        }
+    }
+
+    private Bitmap grabPixels(int x, int y, int w, int h) {
+        int b[] = new int[w * (y + h)];
+        int bt[] = new int[w * h];
+        IntBuffer ib = IntBuffer.wrap(b);
+        ib.position(0);
+
+        GLES20.glReadPixels(x, 0, w, y + h, GLES20.GL_RGBA, GLES20.GL_UNSIGNED_BYTE, ib);
+
+        for (int i = 0, k = 0; i < h; i++, k++) {
+            for (int j = 0; j < w; j++) {
+                int pix = b[i * w + j];
+                int pb = (pix >> 16) & 0xff;
+                int pr = (pix << 16) & 0x00ff0000;
+                int pix1 = (pix & 0xff00ff00) | pr | pb;
+                bt[(h - k - 1) * w + j] = pix1;
+            }
+        }
+
+        Bitmap sb = Bitmap.createBitmap(bt, w, h, Bitmap.Config.ARGB_8888);
+        return sb;
+    }
 
     boolean isTargetCurrentlyTracked()
     {

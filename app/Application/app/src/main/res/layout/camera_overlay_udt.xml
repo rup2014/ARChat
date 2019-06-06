@@ -23,7 +23,7 @@
 
     <include layout="@layout/sample_app_title_bar"/>
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/bottom_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,15 +37,30 @@
 
         <ImageButton
             android:id="@+id/camera_button"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
             android:background="@color/transparent"
             android:contentDescription="@string/content_desc_camera_button"
             android:onClick="onCameraClick"
             android:padding="10dp"
             android:src="@drawable/camera_button_background" />
 
-    </LinearLayout>
+        <Button
+            android:id="@+id/save_screenshot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_gravity="end"
+            android:background="@color/transparent"
+            android:onClick="onSaveClick"
+            android:padding="10dp"
+            android:text="Save" />
+
+    </RelativeLayout>
 
 </RelativeLayout>
