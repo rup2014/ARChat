@@ -273,10 +273,14 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
         mAddMessageImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
+                /*Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
                 intent.addCategory(Intent.CATEGORY_OPENABLE);
                 intent.setType("image/*");
-                startActivityForResult(intent, REQUEST_IMAGE);
+                startActivityForResult(intent, REQUEST_IMAGE);*/
+
+                Intent intent = new Intent(ChatActivity.this,
+                        com.archat.engine.Chat.app.UserDefinedTargets.UserDefinedTargets.class);
+                startActivity(intent);
             }
         });
     }
@@ -351,6 +355,7 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
                 }
             }
         }
+
     }
 
     private void putImageInStorage(StorageReference storageReference, Uri uri, final String key) {

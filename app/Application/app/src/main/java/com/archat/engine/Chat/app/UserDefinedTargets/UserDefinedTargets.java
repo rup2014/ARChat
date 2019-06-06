@@ -9,13 +9,18 @@ countries.
 
 package com.archat.engine.Chat.app.UserDefinedTargets;
 
+import android.Manifest;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.GestureDetector;
@@ -25,6 +30,7 @@ import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.archat.engine.Chat.R;
 import com.archat.engine.Chat.ui.SampleAppMenu.SampleAppMenu;
@@ -52,6 +58,8 @@ import com.archat.engine.SampleApplication.SampleApplicationControl;
 
 import java.util.ArrayList;
 import java.util.Vector;
+
+import static android.support.constraint.Constraints.TAG;
 
 
 /**
@@ -81,6 +89,13 @@ public class UserDefinedTargets extends SampleActivityBase implements
     private RelativeLayout mUILayout;
     private View mBottomBar;
     private View mCameraButton;
+    private View mSaveButton;
+
+    // Global bool
+    public static boolean saveClicked = false;
+
+    // Permission Code
+    private int RC_HANDLE_STORAGE_PERM = 101;
     
     // Alert dialog for displaying SDK errors
     private AlertDialog mDialog;
@@ -398,7 +413,10 @@ public class UserDefinedTargets extends SampleActivityBase implements
         
         // Gets a reference to the Camera button
         mCameraButton = mUILayout.findViewById(R.id.camera_button);
-        
+
+        // Gets a reference to the Save button
+        mSaveButton = mUILayout.findViewById(R.id.save_screenshot);
+
         // Gets a reference to the loading dialog container
         loadingDialogHandler.mLoadingDialogContainer = mUILayout
             .findViewById(R.id.loading_layout);
@@ -427,6 +445,70 @@ public class UserDefinedTargets extends SampleActivityBase implements
             startBuild();
         }
     }
+
+    /**
+     * Handles the requesting of the camera permission.  This includes
+     * showing a "Snackbar" message of why the permission is needed then
+     * sending the request.
+     */
+    private void requestCameraPermission() {
+        Log.w(TAG, "Camera permission is not granted. Requesting permission");
+
+        final String[] permissions = new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE};
+
+        if (!ActivityCompat.shouldShowRequestPermissionRationale(this,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
+            ActivityCompat.requestPermissions(this, permissions, RC_HANDLE_STORAGE_PERM);
+            return;
+        }
+
+        final Activity thisActivity = this;
+
+        View.OnClickListener listener = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ActivityCompat.requestPermissions(thisActivity, permissions,
+                        RC_HANDLE_STORAGE_PERM);
+            }
+        };
+
+        Snackbar.make(mUILayout, "Need Write External Permission",
+                Snackbar.LENGTH_INDEFINITE)
+                .setAction("Okay!", listener)
+                .show();
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        if (requestCode != RC_HANDLE_STORAGE_PERM) {
+            Log.d(TAG, "Got unexpected permission result: " + requestCode);
+            super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+            return;
+        }
+
+        if (grantResults.length != 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            Log.d(TAG, "Storage permission granted");
+            Toast.makeText(getApplicationContext(),"Permission granted! Please click save again!",
+                    Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        Log.e(TAG, "Permission not granted: results len = " + grantResults.length +
+                " Result code = " + (grantResults.length > 0 ? grantResults[0] : "(empty)"));
+
+        finish();
+    }
+
+
+    public void onSaveClick(View v){
+        int permissionGranted = ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE);
+        if (permissionGranted == PackageManager.PERMISSION_GRANTED) {
+            saveClicked = true;
+            Toast.makeText(getApplicationContext(),"Screenshot taken", Toast.LENGTH_SHORT).show();
+        } else {
+            requestCameraPermission();
+        }
+    }
     
 
     Texture createTexture(String nName)
@@ -452,6 +534,7 @@ public class UserDefinedTargets extends SampleActivityBase implements
     {
         mBottomBar.setVisibility(View.VISIBLE);
         mCameraButton.setVisibility(View.VISIBLE);
+        mSaveButton.setVisibility(View.VISIBLE);
     }
     
     
@@ -515,7 +598,6 @@ public class UserDefinedTargets extends SampleActivityBase implements
         
         return false;
     }
-    
 
     // Builds the User Defined Target
     private void startBuild()
@@ -523,7 +605,6 @@ public class UserDefinedTargets extends SampleActivityBase implements
         TrackerManager trackerManager = TrackerManager.getInstance();
         ObjectTracker objectTracker = (ObjectTracker) trackerManager
             .getTracker(ObjectTracker.getClassType());
-        
         if (objectTracker != null)
         {
             ImageTargetBuilder targetBuilder = objectTracker
@@ -542,8 +623,8 @@ public class UserDefinedTargets extends SampleActivityBase implements
                     Log.d(LOGTAG, "TRYING " + name);
                     targetBuilderCounter++;
                 } while (!targetBuilder.build(name, .32f));
-
                 refFreeFrame.setCreating();
+
             }
         }
     }
@@ -915,7 +996,7 @@ public class UserDefinedTargets extends SampleActivityBase implements
             
             // Add new trackable source
             dataSetUserDef.createTrackable(refFreeFrame.getNewTrackableSource());
-            
+
             // Reactivate current dataset
             objectTracker.activateDataSet(dataSetUserDef);
         }

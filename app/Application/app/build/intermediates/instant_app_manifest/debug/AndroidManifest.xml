@@ -36,7 +36,7 @@
         active type: 3G/WiFi).
     -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
@@ -53,13 +53,6 @@
         android:testOnly="true"
         android:theme="@style/SampleAppsTheme" >
         <activity
-            android:name="com.archat.engine.Chat.ui.ChatRoomList"
-            android:label="@string/title_activity_chat_room_list"
-            android:theme="@style/MyTheme.NoActionBar" />
-        <activity
-            android:name="com.archat.engine.Chat.ui.ChatActivity"
-            android:theme="@style/Theme.AppCompat" />
-        <activity
             android:name="com.archat.engine.Chat.ui.LoginActivity"
             android:theme="@style/Theme.AppCompat" >
             <intent-filter>
@@ -67,7 +60,15 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- The following must be present to facilitate use of ARCore, if available -->
+        </activity>
+        <activity
+            android:name="com.archat.engine.Chat.ui.ChatRoomList"
+            android:label="@string/title_activity_chat_room_list"
+            android:theme="@style/MyTheme.NoActionBar" />
+        <activity
+            android:name="com.archat.engine.Chat.ui.ChatActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <!-- The following must be present to facilitate use of ARCore, if available -->
         <meta-data
             android:name="com.google.ar.core"
             android:value="optional" />

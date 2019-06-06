@@ -78,9 +78,22 @@ public class LoginActivity extends AppCompatActivity {
         // Check for existing Google Sign In account, if the user is already signed in
         // the GoogleSignInAccount will be non-null.
         // Check if user is signed in (non-null) and update UI accordingly.
-        FirebaseUser currentUser = mAuth.getCurrentUser();
+        final FirebaseUser currentUser = mAuth.getCurrentUser();
         if(currentUser!=null) {
-            updateUI(currentUser);
+            Log.d("currentUser",currentUser.getDisplayName());
+            userRef.child("users").child(currentUser.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                    if(dataSnapshot.getValue() != null){
+                        updateUI();
+                    }
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                }
+            });
         }
     }
 
@@ -107,7 +120,6 @@ public class LoginActivity extends AppCompatActivity {
             // The ApiException status code indicates the detailed failure reason.
             // Please refer to the GoogleSignInStatusCodes class reference for more information.
             Log.w("Failed signin", "signInResult:failed code=" + e.getStatusCode());
-            updateUI(null);
         }
     }
 
@@ -133,11 +145,11 @@ public class LoginActivity extends AppCompatActivity {
                                 @Override
                                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                     if(dataSnapshot.getValue() != null){
-                                        updateUI(user);
+                                        updateUI();
                                     }
                                     else{
                                         writeNewUser(user.getDisplayName(),user.getUid(),user.getEmail(),user.getPhotoUrl().toString());
-                                        updateUI(user);
+                                        updateUI();
                                     }
                                 }
 
@@ -150,7 +162,6 @@ public class LoginActivity extends AppCompatActivity {
                             // If sign in fails, display a message to the user.
                             Log.w("fail signin", "signInWithCredential:failure", task.getException());
                             Snackbar.make(findViewById(R.id.login_activity), "Authentication Failed.", Snackbar.LENGTH_SHORT).show();
-                            //updateUI(null);
                         }
 
                         // ...
@@ -158,9 +169,9 @@ public class LoginActivity extends AppCompatActivity {
                 });
     }
 
-    private void updateUI(FirebaseUser account){
-        Intent splashIntent = new Intent(this, com.archat.engine.Chat.ui.ChatRoomList.class);
-        splashIntent.putExtra("googleAcount",account);
+    private void updateUI(){
+        Intent splashIntent = new Intent(this, com.archat.engine.Chat.ui.ChatActivity.class);
+        //splashIntent.putExtra("googleAcount",account);
         startActivity(splashIntent);
     }
 }
