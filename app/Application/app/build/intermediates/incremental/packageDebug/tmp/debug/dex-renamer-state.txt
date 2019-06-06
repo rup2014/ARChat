@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-#Wed Jun 05 18:23:39 PDT 2019
-base.0=C\:\\Users\\Hamilton\\Box Sync\\UCSB\\ECE 150\\ARChat\\ARChat\\app\\Application\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
-=======
-#Wed Jun 05 18:57:16 PDT 2019
+#Thu Jun 06 11:15:33 PDT 2019
 base.0=C\:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
->>>>>>> ARaddition
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\Hamilton\\Box Sync\\UCSB\\ECE 150\\ARChat\\ARChat\\app\\Application\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+base.1=C\:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out

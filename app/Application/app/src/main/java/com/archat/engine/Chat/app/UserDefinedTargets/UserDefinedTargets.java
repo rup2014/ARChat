@@ -133,7 +133,7 @@ public class UserDefinedTargets extends SampleActivityBase implements
     {
         Log.d(LOGTAG, "onCreate");
         super.onCreate(savedInstanceState);
-        
+        requestCameraPermission();
         vuforiaAppSession = new SampleApplicationSession(this);
         
         vuforiaAppSession
@@ -488,7 +488,7 @@ public class UserDefinedTargets extends SampleActivityBase implements
 
         if (grantResults.length != 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             Log.d(TAG, "Storage permission granted");
-            Toast.makeText(getApplicationContext(),"Permission granted! Please click save again!",
+            Toast.makeText(getApplicationContext(),"Permission granted!",
                     Toast.LENGTH_SHORT).show();
             return;
         }
