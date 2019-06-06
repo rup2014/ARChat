@@ -8,4 +8,9 @@
     tools:context=".ui.ChatRoomList"
     tools:showIn="@layout/app_bar_chat_room_list">
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chatRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 </android.support.constraint.ConstraintLayout>
