@@ -1,8 +1,13 @@
 package com.archat.engine.Chat.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.support.v4.view.GravityCompat;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -13,11 +18,62 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+import android.view.ViewGroup;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.archat.engine.Chat.R;
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.ArrayList;
 
 public class ChatRoomList extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    public static class ChatViewHolder extends RecyclerView.ViewHolder{
+        TextView chatNameView;
+        TextView lastMessageView;
+        TextView timeStampView;
+        private ChatViewHolder.ClickListener mClickListener;
+
+
+        public ChatViewHolder(View v) {
+            super(v);
+            chatNameView = (TextView) itemView.findViewById(R.id.chatNameView);
+            lastMessageView = (TextView) itemView.findViewById(R.id.lastMessageView);
+            timeStampView = (TextView) itemView.findViewById(R.id.timeStampView);
+
+            v.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View itemView) {
+                    mClickListener.onItemClick(itemView, getAdapterPosition());
+                }
+            });
+        }
+
+
+        public interface ClickListener {
+            void onItemClick(View view, int position);
+        }
+
+        public void setOnClickListener(ChatViewHolder.ClickListener clickListener) {
+            mClickListener = clickListener;
+        }
+
+    }
+
+
+    private RecyclerView mChatRecyclerView;
+    private LinearLayoutManager mLinearLayoutManager;
+
+    private DatabaseReference mFirebaseDatabaseReference;
+    private FirebaseRecyclerAdapter<ChatModel, ChatViewHolder>
+            mFirebaseAdapter;
+
+    private ArrayList<String> arrID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,14 +81,58 @@ public class ChatRoomList extends AppCompatActivity
         setContentView(R.layout.activity_chat_room_list);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        arrID = new ArrayList<>();
+        mChatRecyclerView = (RecyclerView) findViewById(R.id.chatRecyclerView);
+        mLinearLayoutManager = new LinearLayoutManager(this);
+        mLinearLayoutManager.setStackFromEnd(false);
+        mChatRecyclerView.setLayoutManager(mLinearLayoutManager);
+
+        mFirebaseDatabaseReference = FirebaseDatabase.getInstance().getReference();
+        DatabaseReference chatRef = mFirebaseDatabaseReference.child("chats");
+
+        FirebaseRecyclerOptions<ChatModel> options =
+                new FirebaseRecyclerOptions.Builder<ChatModel>()
+                        .setQuery(chatRef, ChatModel.class)
+                        .build();
+
+        mFirebaseAdapter = new FirebaseRecyclerAdapter<ChatModel, ChatViewHolder>(options) {
+
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            protected void onBindViewHolder(@NonNull ChatViewHolder holder, int position, @NonNull ChatModel model) {
+                holder.chatNameView.setText(model.getChatName());
+                holder.lastMessageView.setText(model.getLastMessage());
+                holder.timeStampView.setText(model.getTimeStamp());
+
+                arrID.add(model.getChatId());
             }
-        });
+
+            @NonNull
+            @Override
+            public ChatViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+                LayoutInflater inflater = LayoutInflater.from(viewGroup.getContext());
+                ChatViewHolder viewHolder = new ChatViewHolder(inflater.inflate(R.layout.item_chat, viewGroup, false));
+                viewHolder.setOnClickListener(new ChatViewHolder.ClickListener() {
+                    @Override
+                    public void onItemClick(View view, int position) {
+                        Intent intent = new Intent(ChatRoomList.this,ChatActivity.class);
+                        intent.putExtra("CHAT_ID", arrID.get(position));
+                        startActivity(intent);
+                    }
+                });
+                return viewHolder;
+            }
+        };
+
+        mChatRecyclerView.setAdapter(mFirebaseAdapter);
+
+//        FloatingActionButton fab = findViewById(R.id.fab);
+//        fab.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
+//            }
+//        });
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -50,6 +150,18 @@ public class ChatRoomList extends AppCompatActivity
         } else {
             super.onBackPressed();
         }
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        mFirebaseAdapter.startListening();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        mFirebaseAdapter.stopListening();
     }
 
     @Override
