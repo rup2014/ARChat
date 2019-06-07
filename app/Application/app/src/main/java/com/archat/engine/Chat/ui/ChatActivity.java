@@ -159,6 +159,7 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
         };
 
         DatabaseReference messagesRef = mFirebaseDatabaseReference.child(MESSAGES_CHILD).child(CHAT_ID);
+        final DatabaseReference chatRoomRef = mFirebaseDatabaseReference.child("chats").child(CHAT_ID);
         FirebaseRecyclerOptions<MessageModel> options =
                 new FirebaseRecyclerOptions.Builder<MessageModel>()
                         .setQuery(messagesRef, parser)
@@ -174,6 +175,12 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
             protected void onBindViewHolder(final MessageViewHolder viewHolder,
                                             int position,
                                             MessageModel messageModel) {
+                // Set last message and timestamp for chat room display
+                if(position==(getItemCount()-1)){
+                    chatRoomRef.child("lastMessage").setValue(messageModel.getMessage());
+                    chatRoomRef.child("timeStamp").setValue(String.valueOf(messageModel.getTimeStamp()));
+                }
+
                 mProgressBar.setVisibility(ProgressBar.INVISIBLE);
                 if (messageModel.getMessageType().equals("TEXT")) {
                     viewHolder.messageTextView.setText(messageModel.getMessage());
@@ -349,7 +356,7 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
                     final Uri uri = data.getData();
                     Log.d(TAG, "Uri: " + uri.toString());
 
-                    MessageModel tempMessage = new MessageModel(CHAT_ID, mFirebaseUser.getUid(), mUsername,"Loading...",
+                    MessageModel tempMessage = new MessageModel(CHAT_ID, mFirebaseUser.getUid(), mUsername,"Image",
                             "IMAGE",
                             LOADING_IMAGE_URL,
                             mPhotoUrl, System.currentTimeMillis());
@@ -394,7 +401,7 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
                                                         MessageModel messageModel =
                                                                 new MessageModel(CHAT_ID, mFirebaseUser.getUid(),
                                                                         mUsername,
-                                                                        null,
+                                                                        "Image",
                                                                         "PHOTO",
                                                                         task.getResult().toString(),
                                                                         mPhotoUrl,

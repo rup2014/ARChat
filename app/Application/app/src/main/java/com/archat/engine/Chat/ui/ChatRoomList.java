@@ -29,7 +29,9 @@ import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 import static android.support.v7.widget.DividerItemDecoration.HORIZONTAL;
 
@@ -105,7 +107,11 @@ public class ChatRoomList extends AppCompatActivity
             protected void onBindViewHolder(@NonNull ChatViewHolder holder, int position, @NonNull ChatModel model) {
                 holder.chatNameView.setText(model.getChatName());
                 holder.lastMessageView.setText(model.getLastMessage());
-                holder.timeStampView.setText(model.getTimeStamp());
+
+                long timeStamp = Long.parseLong(model.getTimeStamp());
+                SimpleDateFormat sdf = new SimpleDateFormat("MMM dd,yyyy HH:mm");
+                Date resultdate = new Date(timeStamp);
+                holder.timeStampView.setText(sdf.format(resultdate));
 
                 arrID.add(model.getChatId());
             }
