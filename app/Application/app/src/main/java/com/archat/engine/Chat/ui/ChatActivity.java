@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -83,6 +84,7 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
     private static final String MESSAGE_SENT_EVENT = "message_sent";
     private String mUsername;
     private String mPhotoUrl;
+    private SharedPreferences mSharedPreferences;
     private GoogleApiClient mGoogleApiClient;
     private static final String MESSAGE_URL = "http://friendlychat.firebase.google.com/message/";
 
@@ -111,6 +113,7 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
+        mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
         // Set default username is anonymous.
         mUsername = ANONYMOUS;
         // Get Chat id from previous activity list
@@ -179,7 +182,7 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
                 } else if (messageModel.getMessageType().equals("PHOTO")) {
                     String imageUrl = messageModel.getMediaUrl();
                     Log.d("imageUrl",imageUrl);
-                    if (imageUrl.startsWith("https://")) {
+                    if (imageUrl.startsWith("https://firebasestorage")) {
                         StorageReference storageReference = FirebaseStorage.getInstance()
                                 .getReferenceFromUrl(imageUrl);
                         storageReference.getDownloadUrl().addOnCompleteListener(
@@ -346,15 +349,14 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
                     final Uri uri = data.getData();
                     Log.d(TAG, "Uri: " + uri.toString());
 
-                    MessageModel tempMessage = new MessageModel(CHAT_ID, mFirebaseUser.getUid(), mUsername,null,
-                            "PHOTO",
+                    MessageModel tempMessage = new MessageModel(CHAT_ID, mFirebaseUser.getUid(), mUsername,"Loading...",
+                            "IMAGE",
                             LOADING_IMAGE_URL,
-                            mPhotoUrl, System.currentTimeMillis());;
+                            mPhotoUrl, System.currentTimeMillis());
                     mFirebaseDatabaseReference.child(MESSAGES_CHILD).child(CHAT_ID).push()
                             .setValue(tempMessage, new DatabaseReference.CompletionListener() {
                                 @Override
-                                public void onComplete(DatabaseError databaseError,
-                                                       DatabaseReference databaseReference) {
+                                public void onComplete(@Nullable DatabaseError databaseError, @NonNull DatabaseReference databaseReference) {
                                     if (databaseError == null) {
                                         String key = databaseReference.getKey();
                                         StorageReference storageReference =
