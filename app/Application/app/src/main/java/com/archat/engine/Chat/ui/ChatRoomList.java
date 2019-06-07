@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -29,6 +30,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
+
+import static android.support.v7.widget.DividerItemDecoration.HORIZONTAL;
 
 public class ChatRoomList extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -83,6 +86,7 @@ public class ChatRoomList extends AppCompatActivity
         setSupportActionBar(toolbar);
         arrID = new ArrayList<>();
         mChatRecyclerView = (RecyclerView) findViewById(R.id.chatRecyclerView);
+        DividerItemDecoration itemDecor = new DividerItemDecoration(mChatRecyclerView.getContext(), HORIZONTAL);
         mLinearLayoutManager = new LinearLayoutManager(this);
         mLinearLayoutManager.setStackFromEnd(false);
         mChatRecyclerView.setLayoutManager(mLinearLayoutManager);
