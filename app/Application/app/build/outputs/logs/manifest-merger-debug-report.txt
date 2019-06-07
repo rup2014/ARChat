@@ -8,8 +8,8 @@ MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-
 MERGED from [com.android.support:design:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\209374c5e67c58b45d496af8bfe4fe15\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\8a2a6e88b91a75695a23ceee7d10fe72\AndroidManifest.xml:17:1-22:12
 MERGED from [com.firebaseui:firebase-ui-database:4.3.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\507871440150a18c45b9e1efc93fc966\AndroidManifest.xml:2:1-13:12
-MERGED from [com.firebaseui:firebase-ui-common:4.3.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\5df9360f2a810f27082d0717375aecb6\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\27f2af0f677604eec3d1d4b6ba4af667\AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-common:4.3.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\5df9360f2a810f27082d0717375aecb6\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bc4b188d85bf5517bc4b92764a90652e\AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\f8ce69dae998e06d6b1d2d436a24e04e\AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\1434bd3742914a9f1fb6268593064dfd\AndroidManifest.xml:15:1-36:12
@@ -42,8 +42,8 @@ MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\rup96
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\9f3e13de68090f8e2d2c06427f5c4988\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\251e25860edf81aa0ec4e984b0a70514\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\f7da7223e935846ea62210e53dc149bc\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\2e4d88aa606e16ab475a44712ea20bdc\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\1cc53e95f7578cc5ec2f5dd57c7978e8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\2e4d88aa606e16ab475a44712ea20bdc\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:loader:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\5707a4a3ac4b30242a82c1c18b873181\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:viewpager:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\24773d59e66a200550f62bcebbbf1a8b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\a9c1f65c88141f0a0b0c4c4cdbb17b9e\AndroidManifest.xml:17:1-22:12
@@ -316,10 +316,10 @@ MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\rup96\.gradle\cac
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\8a2a6e88b91a75695a23ceee7d10fe72\AndroidManifest.xml:20:5-44
 MERGED from [com.firebaseui:firebase-ui-database:4.3.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\507871440150a18c45b9e1efc93fc966\AndroidManifest.xml:7:5-9:41
 MERGED from [com.firebaseui:firebase-ui-database:4.3.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\507871440150a18c45b9e1efc93fc966\AndroidManifest.xml:7:5-9:41
-MERGED from [com.firebaseui:firebase-ui-common:4.3.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\5df9360f2a810f27082d0717375aecb6\AndroidManifest.xml:7:5-9:41
-MERGED from [com.firebaseui:firebase-ui-common:4.3.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\5df9360f2a810f27082d0717375aecb6\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\27f2af0f677604eec3d1d4b6ba4af667\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\27f2af0f677604eec3d1d4b6ba4af667\AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-common:4.3.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\5df9360f2a810f27082d0717375aecb6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-common:4.3.2] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\5df9360f2a810f27082d0717375aecb6\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bc4b188d85bf5517bc4b92764a90652e\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\bc4b188d85bf5517bc4b92764a90652e\AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\f8ce69dae998e06d6b1d2d436a24e04e\AndroidManifest.xml:20:5-44
@@ -384,10 +384,10 @@ MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\rup96\.grad
 MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\251e25860edf81aa0ec4e984b0a70514\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\f7da7223e935846ea62210e53dc149bc\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\f7da7223e935846ea62210e53dc149bc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\2e4d88aa606e16ab475a44712ea20bdc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\2e4d88aa606e16ab475a44712ea20bdc\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\1cc53e95f7578cc5ec2f5dd57c7978e8\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\1cc53e95f7578cc5ec2f5dd57c7978e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\2e4d88aa606e16ab475a44712ea20bdc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\2e4d88aa606e16ab475a44712ea20bdc\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:loader:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\5707a4a3ac4b30242a82c1c18b873181\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:loader:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\5707a4a3ac4b30242a82c1c18b873181\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:viewpager:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\24773d59e66a200550f62bcebbbf1a8b\AndroidManifest.xml:20:5-44

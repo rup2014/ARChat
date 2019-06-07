@@ -55,7 +55,8 @@ import de.hdodenhof.circleimageview.CircleImageView;
 */
 
 
-public class ChatActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
+public class ChatActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener,
+        ItemListDialogFragment.Listener{
 
     public static class MessageViewHolder extends RecyclerView.ViewHolder {
         TextView messageTextView;
@@ -82,7 +83,6 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
     private static final String MESSAGE_SENT_EVENT = "message_sent";
     private String mUsername;
     private String mPhotoUrl;
-    private SharedPreferences mSharedPreferences;
     private GoogleApiClient mGoogleApiClient;
     private static final String MESSAGE_URL = "http://friendlychat.firebase.google.com/message/";
 
@@ -102,14 +102,20 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
 
     private String CHAT_ID = "Room_One";
 
+    // Bottom Sheet position
+    private int GALLERY = 0;
+    private int CAMERA = 1;
+    private int AR = 2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
-        mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
         // Set default username is anonymous.
         mUsername = ANONYMOUS;
+        // Get Chat id from previous activity list
         CHAT_ID = getIntent().getStringExtra("CHAT_ID");
+
         // Initialize Firebase Auth
         mFirebaseAuth = FirebaseAuth.getInstance();
         mFirebaseUser = mFirebaseAuth.getCurrentUser();
@@ -273,16 +279,28 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
         mAddMessageImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                /*Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
-                intent.addCategory(Intent.CATEGORY_OPENABLE);
-                intent.setType("image/*");
-                startActivityForResult(intent, REQUEST_IMAGE);*/
-
-                Intent intent = new Intent(ChatActivity.this,
-                        com.archat.engine.Chat.app.UserDefinedTargets.UserDefinedTargets.class);
-                startActivity(intent);
+                // Initalize bottom sheet
+                ItemListDialogFragment.newInstance(3).show(getSupportFragmentManager(), "dialog");
             }
         });
+    }
+
+    @Override
+    public void onItemClicked(int position) {
+        if(position == GALLERY){
+            Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
+            intent.addCategory(Intent.CATEGORY_OPENABLE);
+            intent.setType("image/*");
+            startActivityForResult(intent, REQUEST_IMAGE);
+        }
+        else if(position == CAMERA){
+            // @todo create camera intent
+        }
+        else if(position == AR){
+            Intent intent = new Intent(ChatActivity.this,
+                    com.archat.engine.Chat.app.UserDefinedTargets.UserDefinedTargets.class);
+            startActivity(intent);
+        }
     }
 
     @Override
@@ -359,6 +377,7 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
     }
 
     private void putImageInStorage(StorageReference storageReference, Uri uri, final String key) {
+        Log.d(TAG,"something");
         storageReference.putFile(uri).addOnCompleteListener(ChatActivity.this,
                 new OnCompleteListener<UploadTask.TaskSnapshot>() {
                     @Override
