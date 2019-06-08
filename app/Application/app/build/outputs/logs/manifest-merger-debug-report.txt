@@ -1,9 +1,20 @@
 -- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:97:9-105:20
+	android:grantUriPermissions
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:101:13-47
+	android:authorities
+		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:99:13-60
+	android:exported
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:100:13-37
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:98:13-67
 manifest
-ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-98:12
-INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-98:12
-INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-98:12
-INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-98:12
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-108:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-108:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-108:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-108:12
 MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6ddd85f3605263bb1fc34fed313a8f87\AndroidManifest.xml:17:1-46:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\209374c5e67c58b45d496af8bfe4fe15\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\8a2a6e88b91a75695a23ceee7d10fe72\AndroidManifest.xml:17:1-22:12
@@ -69,20 +80,20 @@ MERGED from [android.arch.core:runtime:1.1.1] C:\Users\rup96\.gradle\caches\tran
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\e1d746d012fa1f3aa59f294ed3f7a061\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\09b8ca6dff536aee423ac5b81700260f\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\19bea2b940d78bc79963814f129a6955\AndroidManifest.xml:2:1-7:12
-INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-98:12
-INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-98:12
-INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-108:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-108:12
+INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-108:12
 	package
 		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-98:12
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-108:12
 		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-98:12
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-108:12
 		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:11-69
@@ -153,7 +164,7 @@ ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidMan
 	android:name
 		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:32:22-78
 application
-ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:34:5-96:19
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:34:5-106:19
 MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6ddd85f3605263bb1fc34fed313a8f87\AndroidManifest.xml:30:5-44:19
 MERGED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6ddd85f3605263bb1fc34fed313a8f87\AndroidManifest.xml:30:5-44:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\209374c5e67c58b45d496af8bfe4fe15\AndroidManifest.xml:22:5-20
@@ -448,6 +459,12 @@ INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\Android
 		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:102:13-104:58
+	android:resource
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:104:17-55
+	android:name
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:103:17-67
 activity#com.google.ar.core.InstallActivity
 ADDED from [com.google.ar:core:1.6.0] C:\Users\rup96\.gradle\caches\transforms-2\files-2.1\6ddd85f3605263bb1fc34fed313a8f87\AndroidManifest.xml:33:9-39:80
 	android:excludeFromRecents
