@@ -1,0 +1,4 @@
+#Fri Jun 07 11:34:17 PDT 2019
+base.0=/Users/durva/Documents/ece150/android demos/ARChat3/app/Application/app/build/intermediates/transforms/dexMerger/debug/8
+path.0=classes.dex
+renamed.0=classes.dex

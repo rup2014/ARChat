@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "/Users/durva/Documents/ece150/android demos/ARChat3/app/Application/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\60fb978ac01f14f64cb3db916960fe2f\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/durva/.gradle/caches/transforms-2/files-2.1/0fc403730fb4ff9ead415f5a3f9f0e95/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rup96\\.gradle\\caches\\transforms-2\\files-2.1\\8a2a6e88b91a75695a23ceee7d10fe72\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/durva/.gradle/caches/transforms-2/files-2.1/71fb7dfecbe2ac3ae89c9957655607bc/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
