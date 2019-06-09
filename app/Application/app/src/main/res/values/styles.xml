@@ -22,4 +22,13 @@
 
     <style name="MyTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="SampleAppsTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SampleAppsTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="SampleAppsTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profileActivity">
+
+    <View
+        android:layout_width = "match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        ></View>
+
+
+    <View
+        android:layout_width = "match_parent"
+        android:layout_height="210dp"
+        android:background="@color/colorPrimary"
+        ></View>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profilePic"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="1dp"
+                android:src="@drawable/profile_pic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_marginTop="85dp"
+                    app:contentPaddingTop="15dp"
+                    app:contentPaddingRight="15dp"
+                    app:contentPaddingLeft="15dp"
+                    app:contentPaddingBottom="15dp"
+                    app:cardCornerRadius="10dp"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/Username"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="60dp"
+                            android:text="user's name"
+                            android:paddingBottom="30dp"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="something else"-->
+                        <!--android:textSize="17sp"-->
+                        <!--android:layout_marginTop="10dp"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--/>-->
+                        <!---->
+                        <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="something else: blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"-->
+                        <!--android:textAlignment="center"-->
+                        <!--android:textStyle="italic"-->
+                        <!--android:textSize="15sp"-->
+                        <!--android:layout_marginTop="20dp"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--/>-->
+                        <!---->
+                        <!---->
+                        <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="something else"-->
+                        <!--android:textSize="18sp"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:layout_marginTop="10dp"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--/>-->
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="20dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp">
+
+                        <TextView
+                            android:id="@+id/subUsername"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="50dp"
+                            android:paddingBottom="40dp"
+                            android:text="username:"
+                            android:textSize="20sp"
+
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:id="@+id/Email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="40dp"
+                            android:text="email:"
+                            android:textSize="20sp"
+
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:id="@+id/UID"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="40dp"
+                            android:text="uid:"
+                            android:textSize="20sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:paddingRight="30dp"
+                        android:src="@drawable/instagram"
+                        />
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:paddingRight="30dp"
+                        android:src="@drawable/facebook"
+                        />
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:paddingRight="30dp"
+                        android:src="@drawable/twitter"
+                        />
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

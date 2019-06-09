@@ -1,12 +1,22 @@
 package com.archat.engine.Chat.ui;
 
+import android.Manifest;
+import android.app.Activity;
+import android.content.ContentValues;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
 import android.net.Uri;
+import android.os.Environment;
 import android.preference.PreferenceManager;
+import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -20,6 +30,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebChromeClient;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -47,7 +60,13 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import de.hdodenhof.circleimageview.CircleImageView;
+
+import static android.support.constraint.Constraints.TAG;
 
 /*
 
@@ -64,6 +83,7 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
         ImageView messageImageView;
         TextView messengerTextView;
         CircleImageView messengerImageView;
+        WebView messageWebView;
 
         public MessageViewHolder(View v) {
             super(v);
@@ -71,6 +91,7 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
             messageImageView = (ImageView) itemView.findViewById(R.id.messageImageView);
             messengerTextView = (TextView) itemView.findViewById(R.id.messengerTextView);
             messengerImageView = (CircleImageView) itemView.findViewById(R.id.messengerImageView);
+            messageWebView = (WebView) itemView.findViewById(R.id.messageWebView);
         }
     }
 
@@ -78,6 +99,9 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
     public static final String MESSAGES_CHILD = "messages";
     private static final int REQUEST_INVITE = 1;
     private static final int REQUEST_IMAGE = 2;
+    private static final int REQUEST_VIDEO = 3;
+    private static final int REQUEST_IMAGE_CAPTURE = 4;
+    private static final int RC_HANDLE_CAMERA_PERM = 101;
     private static final String LOADING_IMAGE_URL = "https://www.google.com/images/spin-32.gif";
     public static final int DEFAULT_MSG_LENGTH_LIMIT = 10;
     public static final String ANONYMOUS = "anonymous";
@@ -107,8 +131,11 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
     // Bottom Sheet position
     private int GALLERY = 0;
     private int CAMERA = 1;
-    private int AR = 2;
+    private int VIDEO = 2;
+    private int AR = 3;
 
+    // Camera intent variables
+    private Uri outputFileUri;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -133,7 +160,7 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
                 mPhotoUrl = mFirebaseUser.getPhotoUrl().toString();
             }
         }
-
+        requestCameraPermission();
         //mGoogleApiClient = new GoogleApiClient.Builder(this)
           //      .enableAutoManage(this /* FragmentActivity */, this /* OnConnectionFailedListener */)
             //    .addApi(Auth.GOOGLE_SIGN_IN_API)
@@ -186,6 +213,7 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
                     viewHolder.messageTextView.setText(messageModel.getMessage());
                     viewHolder.messageTextView.setVisibility(TextView.VISIBLE);
                     viewHolder.messageImageView.setVisibility(ImageView.GONE);
+                    viewHolder.messageWebView.setVisibility(WebView.GONE);
                 } else if (messageModel.getMessageType().equals("PHOTO")) {
                     String imageUrl = messageModel.getMediaUrl();
                     Log.d("imageUrl",imageUrl);
@@ -214,6 +242,39 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
                     }
                     viewHolder.messageImageView.setVisibility(ImageView.VISIBLE);
                     viewHolder.messageTextView.setVisibility(TextView.GONE);
+                    viewHolder.messageWebView.setVisibility(WebView.GONE);
+                }
+                else if (messageModel.getMessageType().equals("VIDEO")){
+                    String videoUrl = messageModel.getMediaUrl();
+                    Log.d("videoUrl",videoUrl);
+                    if (videoUrl.startsWith("https://firebasestorage")) {
+                        StorageReference storageReference = FirebaseStorage.getInstance()
+                                .getReferenceFromUrl(videoUrl);
+                        storageReference.getDownloadUrl().addOnCompleteListener(
+                                new OnCompleteListener<Uri>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<Uri> task) {
+                                        if (task.isSuccessful()) {
+                                            String downloadUrl = task.getResult().toString();
+                                            viewHolder.messageWebView.getSettings().setPluginState(WebSettings.PluginState.ON);
+                                            viewHolder.messageWebView.getSettings().setJavaScriptEnabled(true);
+                                            viewHolder.messageWebView.setWebChromeClient(new WebChromeClient());
+                                            viewHolder.messageWebView.loadUrl(downloadUrl);
+                                        } else {
+                                            Log.w(TAG, "Getting download url was not successful.",
+                                                    task.getException());
+                                        }
+                                    }
+                                });
+                    } else {
+                        Glide.with(viewHolder.messageImageView.getContext())
+                                .load(messageModel.getMediaUrl())
+                                .into(viewHolder.messageImageView);
+                    }
+
+                    viewHolder.messageImageView.setVisibility(ImageView.GONE);
+                    viewHolder.messageTextView.setVisibility(TextView.GONE);
+                    viewHolder.messageWebView.setVisibility(WebView.VISIBLE);
                 }
 
 
@@ -290,7 +351,7 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
             @Override
             public void onClick(View view) {
                 // Initalize bottom sheet
-                ItemListDialogFragment.newInstance(3).show(getSupportFragmentManager(), "dialog");
+                ItemListDialogFragment.newInstance(4).show(getSupportFragmentManager(), "dialog");
             }
         });
     }
@@ -305,6 +366,27 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
         }
         else if(position == CAMERA){
             // @todo create camera intent
+            Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+            if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+                File file=getOutputMediaFile(1);
+                outputFileUri = FileProvider.getUriForFile(getApplicationContext(),
+                        getApplicationContext().getPackageName() + ".provider", file);
+                takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, outputFileUri);
+                startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+            }
+        }
+        else if(position == VIDEO){
+            int permissionGranted = ActivityCompat.checkSelfPermission(this,
+                    Manifest.permission.CAMERA);
+            if (permissionGranted == PackageManager.PERMISSION_GRANTED) {
+                Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
+                intent.addCategory(Intent.CATEGORY_OPENABLE);
+                intent.setType("video/*");
+                startActivityForResult(intent, REQUEST_VIDEO);
+            } else {
+                requestCameraPermission();
+            }
+
         }
         else if(position == AR){
             Intent intent = new Intent(ChatActivity.this,
@@ -382,6 +464,72 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
                 }
             }
         }
+        else if(requestCode == REQUEST_VIDEO){
+            if (resultCode == RESULT_OK){
+                final Uri uri = data.getData();
+                Log.d(TAG, "Uri: " + uri.toString());
+
+                MessageModel tempMessage = new MessageModel(CHAT_ID, mFirebaseUser.getUid(), mUsername,"Video",
+                        "VIDEO",
+                        LOADING_IMAGE_URL,
+                        mPhotoUrl, System.currentTimeMillis());
+                mFirebaseDatabaseReference.child(MESSAGES_CHILD).child(CHAT_ID).push()
+                        .setValue(tempMessage, new DatabaseReference.CompletionListener() {
+                            @Override
+                            public void onComplete(@Nullable DatabaseError databaseError, @NonNull DatabaseReference databaseReference) {
+                                if (databaseError == null) {
+                                    String key = databaseReference.getKey();
+                                    StorageReference storageReference =
+                                            FirebaseStorage.getInstance()
+                                                    .getReference(mFirebaseUser.getUid())
+                                                    .child(key)
+                                                    .child(uri.getLastPathSegment());
+
+                                    putVideoInStorage(storageReference, uri, key);
+                                } else {
+                                    Log.w(TAG, "Unable to write message to database.",
+                                            databaseError.toException());
+                                }
+                            }
+                        });
+            }
+        }
+        else if(requestCode == REQUEST_IMAGE_CAPTURE){
+            if (resultCode == RESULT_OK) {
+                /*Bitmap image = (Bitmap) data.getExtras().get("data");
+                Date now = new Date();
+                android.text.format.DateFormat.format("yyyy-MM-dd_hh:mm:ss", now);
+                String path = MediaStore.Images.Media.insertImage(getContentResolver(), image, now.toString() , "none");
+                File f = new File(path);*/
+                final Uri uri = outputFileUri;
+                Log.d(TAG, "Uri: " + uri.toString());
+
+                MessageModel tempMessage = new MessageModel(CHAT_ID, mFirebaseUser.getUid(), mUsername,"Image",
+                        "IMAGE",
+                        LOADING_IMAGE_URL,
+                        mPhotoUrl, System.currentTimeMillis());
+                mFirebaseDatabaseReference.child(MESSAGES_CHILD).child(CHAT_ID).push()
+                        .setValue(tempMessage, new DatabaseReference.CompletionListener() {
+                            @Override
+                            public void onComplete(@Nullable DatabaseError databaseError, @NonNull DatabaseReference databaseReference) {
+                                if (databaseError == null) {
+                                    String key = databaseReference.getKey();
+                                    StorageReference storageReference =
+                                            FirebaseStorage.getInstance()
+                                                    .getReference(mFirebaseUser.getUid())
+                                                    .child(key)
+                                                    .child(uri.getLastPathSegment());
+
+                                    putImageInStorage(storageReference, uri, key);
+                                } else {
+                                    Log.w(TAG, "Unable to write message to database.",
+                                            databaseError.toException());
+                                }
+                            }
+                        });
+
+            }
+        }
 
     }
 
@@ -419,4 +567,120 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
                 });
     }
 
+
+    private void putVideoInStorage(StorageReference storageReference, Uri uri, final String key) {
+        Log.d(TAG,"something");
+        storageReference.putFile(uri).addOnCompleteListener(ChatActivity.this,
+                new OnCompleteListener<UploadTask.TaskSnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<UploadTask.TaskSnapshot> task) {
+                        if (task.isSuccessful()) {
+                            task.getResult().getMetadata().getReference().getDownloadUrl()
+                                    .addOnCompleteListener(ChatActivity.this,
+                                            new OnCompleteListener<Uri>() {
+                                                @Override
+                                                public void onComplete(@NonNull Task<Uri> task) {
+                                                    if (task.isSuccessful()) {
+                                                        MessageModel messageModel =
+                                                                new MessageModel(CHAT_ID, mFirebaseUser.getUid(),
+                                                                        mUsername,
+                                                                        "Video",
+                                                                        "VIDEO",
+                                                                        task.getResult().toString(),
+                                                                        mPhotoUrl,
+                                                                        System.currentTimeMillis());
+                                                        mFirebaseDatabaseReference.child(MESSAGES_CHILD).child(CHAT_ID).child(key)
+                                                                .setValue(messageModel);
+                                                    }
+                                                }
+                                            });
+                        } else {
+                            Log.w(TAG, "Video upload task was not successful.",
+                                    task.getException());
+                        }
+                    }
+                });
+    }
+
+    /** Create a File for saving an image */
+    private  File getOutputMediaFile(int type){
+        File mediaStorageDir = new File(Environment.getExternalStoragePublicDirectory(
+                Environment.DIRECTORY_PICTURES), "ARChat");
+
+        /**Create the storage directory if it does not exist*/
+        if (! mediaStorageDir.exists()){
+            if (! mediaStorageDir.mkdirs()){
+                return null;
+            }
+        }
+
+        /**Create a media file name*/
+        //String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+        long timeStamp = System.currentTimeMillis();
+        SimpleDateFormat sdf = new SimpleDateFormat("MMM dd,yyyy HH:mm");
+        Date resultdate = new Date(timeStamp);
+        File mediaFile;
+        if (type == 1){
+            mediaFile = new File(mediaStorageDir.getPath() + File.separator +
+                    "IMG_"+ sdf.format(resultdate) + ".jpg");
+            ContentValues values = new ContentValues();
+            values.put(MediaStore.Images.Media.DATA, mediaFile.getAbsolutePath());
+            values.put(MediaStore.Images.Media.MIME_TYPE, "image/jpeg"); // setar isso
+            getApplicationContext().getContentResolver().insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
+            Log.d(TAG, mediaFile.getPath());
+        } else {
+            return null;
+        }
+
+        return mediaFile;
+    }
+
+
+    private void requestCameraPermission() {
+        Log.w(TAG, "Camera permission is not granted. Requesting permission");
+
+        final String[] permissions = new String[]{Manifest.permission.CAMERA,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE};
+
+        if (!ActivityCompat.shouldShowRequestPermissionRationale(this,
+                Manifest.permission.CAMERA) || !ActivityCompat.shouldShowRequestPermissionRationale(this,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
+            ActivityCompat.requestPermissions(this, permissions, RC_HANDLE_CAMERA_PERM);
+            return;
+        }
+
+        final Activity thisActivity = this;
+
+        View.OnClickListener listener = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ActivityCompat.requestPermissions(thisActivity, permissions,
+                        RC_HANDLE_CAMERA_PERM);
+            }
+        };
+
+        Snackbar.make(mMessageRecyclerView, "Need Camera and Storage Permission",
+                Snackbar.LENGTH_INDEFINITE)
+                .setAction("Okay!", listener)
+                .show();
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        if (requestCode != RC_HANDLE_CAMERA_PERM) {
+            Log.d(TAG, "Got unexpected permission result: " + requestCode);
+            super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+            return;
+        }
+
+        if (grantResults.length != 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            Log.d(TAG, "Storage permission granted");
+            return;
+        }
+
+        Log.e(TAG, "Permission not granted: results len = " + grantResults.length +
+                " Result code = " + (grantResults.length > 0 ? grantResults[0] : "(empty)"));
+
+        finish();
+    }
 }

@@ -56,9 +56,11 @@ public class ItemListDialogFragment extends BottomSheetDialogFragment {
                              @Nullable Bundle savedInstanceState) {
         textOptions.add("Gallery");
         textOptions.add("Take Picture");
+        textOptions.add("Send Video");
         textOptions.add("Augmented Reality");
 
         imageOptions.add(R.drawable.baseline_add_photo_alternate_black_24);
+        imageOptions.add(R.drawable.baseline_add_a_photo_black_24);
         imageOptions.add(R.drawable.baseline_add_a_photo_black_24);
         imageOptions.add(R.drawable.baseline_smartphone_black_24);
 

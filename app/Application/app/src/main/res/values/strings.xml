@@ -119,6 +119,7 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="title_activity_profile">profileActivity</string>
     <!-- Strings related to login -->
     <!--<string name="default_web_client_id">303031097876-iooqs7cqhniiupm1v5octpfsjao9o6bn.apps.googleusercontent.com</string>-->
 

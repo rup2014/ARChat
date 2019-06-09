@@ -40,6 +40,10 @@
         android:supportsRtl="false"
         android:theme="@style/SampleAppsTheme">
         <activity
+            android:name=".ui.profileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/SampleAppsTheme.NoActionBar"></activity>
+        <activity
             android:name=".ui.LoginActivity"
             android:theme="@style/Theme.AppCompat">
             <intent-filter>
@@ -51,11 +55,10 @@
         <activity
             android:name=".ui.ChatRoomList"
             android:label="@string/title_activity_chat_room_list"
-            android:theme="@style/MyTheme.NoActionBar"></activity>
+            android:theme="@style/MyTheme.NoActionBar" />
         <activity
             android:name=".ui.ChatActivity"
-            android:theme="@style/Theme.AppCompat"></activity>
-         <!-- The following must be present to facilitate use of ARCore, if available -->
+            android:theme="@style/Theme.AppCompat" /> <!-- The following must be present to facilitate use of ARCore, if available -->
         <meta-data
             android:name="com.google.ar.core"
             android:value="optional" />
@@ -93,6 +96,16 @@
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
             android:launchMode="singleTask"
             android:theme="@style/SampleAppsTheme" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
     </application>
 
 </manifest>
