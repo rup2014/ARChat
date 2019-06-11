@@ -1,0 +1,695 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:100:9-108:20
+	android:grantUriPermissions
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:104:13-47
+	android:authorities
+		INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:102:13-60
+	android:exported
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:103:13-37
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:101:13-67
+manifest
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-111:12
+MERGED from [com.google.ar:core:1.6.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fbb517f2305d7e0af6162bc779fff6a4\AndroidManifest.xml:17:1-46:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4ab2c3eaddedc59df046927000a07ca1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\c3a8f3a0d295670377e188dc32f46124\AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-database:4.3.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\9d4bdba525972f56982c9c21b6079e8e\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e068920c283ce1d351f0d52e1f67946a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-common:4.3.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\ff9994247c29376b5757dd03421ceac2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4422821a9d11a4d4703340a24c3631bb\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\22c9ca82f38635e01e78144aae639355\AndroidManifest.xml:15:1-36:12
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\277146c529d938d87d7772a0a63ee3e5\AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3ea5e5533d8548876cce89050d737c3c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\63720efeef93edc69e2e2c65e7e2ba04\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\aa871b37032675c873e62a667e305174\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\85a86759d725a8a1aa5d0848c1489dc8\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e53673760ce45f61dba3074b1469e7ac\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\31fa807e016e3e7fac2ae27172ca961e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\344ccac3982e0355d715676143bf8e2a\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\2ef2d46ac80a2557a3e7a8f3aee9a498\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\882c7e9c4687ef92414400667a4a67bc\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\84cc9b4294a666a88d1195a3e1cf8e1e\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f15112cb847594ccbf42358220bcd997\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\14fe502b218ccbc94711b15e8ec8108b\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\18e9375e045cb663b6f65fc8e3d384d4\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f8f65a4633052d056b6f0d8c7585995c\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\2e57502379fea8024d294f571d91cce4\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f5bc1da313e2bf6c58ef4b1d672b107e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\5e8364cb17bdfdb14e976e8cf898a936\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b89e2d53debda2798de3a68c670e3a6a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\75d8251173607976a712ad278f714fb2\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\0cf401834a3559d0f316c2f78f098db9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\17184f9772846352372e83ce76b9f835\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f12407518c4c642f49212bbf15fd2de3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fee7e60a316557594d4315cca87ce0c5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\2f985e1bcfe09ac4171c33a2db93fd47\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\d5a48c18ff44bd9c64d24bc424f76091\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\1a0f736e438905eb535e98278aaf2779\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3566740bbd8558da95513a8145641497\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3d272469fd9d251378c4429bcdb9929b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e7e503aa2aebfce38198af3438b87d89\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\079f4d74c48b616b36f11305deefefd9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\581fce54520545d1280d10ad6920f8d7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\0ec65269e85f5e9dfe435b126e53af83\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\c3f166ad622d5712f448e0c23b7abb5c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b8b4c01c832c4af84b2ca85a23f5586c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b2bfe0daa63ab78fe3d7417ee73fc60d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\622b92e7831fabc22812236adbd54b1e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\5d74cb4a628218563751914da22a5b7f\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\dedfb119e6d76a1e388489077c18f4f0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\95c20fe8bcc661fb3bb72cfd211df1bd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3a8cd58ce6726339e0c6e20cfd85a5f4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\c7d1bc88329f4370db1acf702c27de0c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\63360f6ca60cd8608ef32db42434264e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\a5b9082748d4f8971501897b1d584212\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\7765b5c99b106fa6071a69f76d145f63\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\d9c53e2cc59879f3dc8caec9e6f0f5f4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\9acf45e13a64d31ac1c75d66364f9e50\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3a39d54c93c5cc5bbba64ebcf074d9b3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\2951b98aced4197c6c8491c0b7430924\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b95e75cae10786777e976b3184ff2b06\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b1acb11ac77bc37e149f98dbc0560987\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\aa2c8727b06428f9840f8d65ef855d37\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\8ad1d49dfad8146870ebb127f69ada1c\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\6a4769e9e9c093ded8b8b1f62d652488\AndroidManifest.xml:2:1-7:12
+INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-111:12
+	package
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-111:12
+		INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:1-111:12
+		INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:5:5-71
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:5:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:7:5-72
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:7:22-69
+uses-feature#0x00020000
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:9:5-54
+	android:glEsVersion
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:9:19-51
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:24:5-60
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:24:19-57
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:25:5-65
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:25:22-62
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:26:5-67
+MERGED from [com.firebaseui:firebase-ui-database:4.3.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\9d4bdba525972f56982c9c21b6079e8e\AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:4.3.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\9d4bdba525972f56982c9c21b6079e8e\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\22c9ca82f38635e01e78144aae639355\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\22c9ca82f38635e01e78144aae639355\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\277146c529d938d87d7772a0a63ee3e5\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\277146c529d938d87d7772a0a63ee3e5\AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\344ccac3982e0355d715676143bf8e2a\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\344ccac3982e0355d715676143bf8e2a\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\18e9375e045cb663b6f65fc8e3d384d4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\18e9375e045cb663b6f65fc8e3d384d4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f8f65a4633052d056b6f0d8c7585995c\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f8f65a4633052d056b6f0d8c7585995c\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:26:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:31:5-79
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\22c9ca82f38635e01e78144aae639355\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\22c9ca82f38635e01e78144aae639355\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\277146c529d938d87d7772a0a63ee3e5\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\277146c529d938d87d7772a0a63ee3e5\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\344ccac3982e0355d715676143bf8e2a\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\344ccac3982e0355d715676143bf8e2a\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\18e9375e045cb663b6f65fc8e3d384d4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\18e9375e045cb663b6f65fc8e3d384d4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f8f65a4633052d056b6f0d8c7585995c\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f8f65a4633052d056b6f0d8c7585995c\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:31:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:32:5-81
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:32:22-78
+application
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:34:5-109:19
+MERGED from [com.google.ar:core:1.6.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fbb517f2305d7e0af6162bc779fff6a4\AndroidManifest.xml:30:5-44:19
+MERGED from [com.google.ar:core:1.6.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fbb517f2305d7e0af6162bc779fff6a4\AndroidManifest.xml:30:5-44:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4ab2c3eaddedc59df046927000a07ca1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4ab2c3eaddedc59df046927000a07ca1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4422821a9d11a4d4703340a24c3631bb\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4422821a9d11a4d4703340a24c3631bb\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\22c9ca82f38635e01e78144aae639355\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\22c9ca82f38635e01e78144aae639355\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\277146c529d938d87d7772a0a63ee3e5\AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\277146c529d938d87d7772a0a63ee3e5\AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\63720efeef93edc69e2e2c65e7e2ba04\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\63720efeef93edc69e2e2c65e7e2ba04\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e53673760ce45f61dba3074b1469e7ac\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e53673760ce45f61dba3074b1469e7ac\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\31fa807e016e3e7fac2ae27172ca961e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\31fa807e016e3e7fac2ae27172ca961e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\344ccac3982e0355d715676143bf8e2a\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\344ccac3982e0355d715676143bf8e2a\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\2ef2d46ac80a2557a3e7a8f3aee9a498\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\2ef2d46ac80a2557a3e7a8f3aee9a498\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\882c7e9c4687ef92414400667a4a67bc\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\882c7e9c4687ef92414400667a4a67bc\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\84cc9b4294a666a88d1195a3e1cf8e1e\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\84cc9b4294a666a88d1195a3e1cf8e1e\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f15112cb847594ccbf42358220bcd997\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f15112cb847594ccbf42358220bcd997\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\14fe502b218ccbc94711b15e8ec8108b\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\14fe502b218ccbc94711b15e8ec8108b\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\18e9375e045cb663b6f65fc8e3d384d4\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\18e9375e045cb663b6f65fc8e3d384d4\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f8f65a4633052d056b6f0d8c7585995c\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f8f65a4633052d056b6f0d8c7585995c\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\2e57502379fea8024d294f571d91cce4\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\2e57502379fea8024d294f571d91cce4\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f5bc1da313e2bf6c58ef4b1d672b107e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f5bc1da313e2bf6c58ef4b1d672b107e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\5e8364cb17bdfdb14e976e8cf898a936\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\5e8364cb17bdfdb14e976e8cf898a936\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b89e2d53debda2798de3a68c670e3a6a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b89e2d53debda2798de3a68c670e3a6a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\75d8251173607976a712ad278f714fb2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\75d8251173607976a712ad278f714fb2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\17184f9772846352372e83ce76b9f835\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\17184f9772846352372e83ce76b9f835\AndroidManifest.xml:10:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\5d74cb4a628218563751914da22a5b7f\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\5d74cb4a628218563751914da22a5b7f\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\dedfb119e6d76a1e388489077c18f4f0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\dedfb119e6d76a1e388489077c18f4f0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3a8cd58ce6726339e0c6e20cfd85a5f4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3a8cd58ce6726339e0c6e20cfd85a5f4\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\aa2c8727b06428f9840f8d65ef855d37\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\aa2c8727b06428f9840f8d65ef855d37\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\8ad1d49dfad8146870ebb127f69ada1c\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\8ad1d49dfad8146870ebb127f69ada1c\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\5d74cb4a628218563751914da22a5b7f\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:40:9-36
+	android:label
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:38:9-41
+	android:launchMode
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:39:9-40
+	android:icon
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:37:9-38
+	android:allowBackup
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:35:9-35
+	android:description
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:36:9-54
+	android:theme
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:41:9-47
+activity#com.archat.engine.Chat.ui.profileActivity
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:42:9-45:75
+	android:label
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:44:13-59
+	android:theme
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:45:13-63
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:43:13-47
+activity#com.archat.engine.Chat.ui.LoginActivity
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:46:9-54:20
+	android:theme
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:48:13-51
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:47:13-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:49:13-53:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:52:27-74
+activity#com.archat.engine.Chat.ui.ChatRoomList
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:55:9-58:58
+	android:label
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:57:13-66
+	android:theme
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:58:13-55
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:56:13-44
+activity#com.archat.engine.Chat.ui.ChatActivity
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:59:9-61:54
+	android:theme
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:61:13-51
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:60:13-44
+meta-data#com.google.ar.core
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:62:9-64:40
+	android:value
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:63:13-46
+activity#com.archat.engine.Chat.ui.ActivityList.ActivitySplashScreen
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:80:9-84:52
+	android:screenOrientation
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:84:13-49
+	android:noHistory
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:83:13-37
+	android:configChanges
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:82:13-93
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:81:13-65
+activity#com.archat.engine.Chat.ui.ActivityList.ActivityLauncher
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:85:9-88:52
+	android:screenOrientation
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:88:13-49
+	android:configChanges
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:87:13-93
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:86:13-61
+activity#com.archat.engine.Chat.ui.ActivityList.AboutScreen
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:89:9-93:52
+	android:screenOrientation
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:93:13-49
+	android:noHistory
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:92:13-37
+	android:configChanges
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:91:13-93
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:90:13-56
+activity#com.archat.engine.Chat.app.UserDefinedTargets.UserDefinedTargets
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:94:9-98:54
+	android:launchMode
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:97:13-44
+	android:configChanges
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:96:13-93
+	android:theme
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:98:13-51
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:95:13-70
+uses-sdk
+INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+MERGED from [com.google.ar:core:1.6.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fbb517f2305d7e0af6162bc779fff6a4\AndroidManifest.xml:26:5-28:41
+MERGED from [com.google.ar:core:1.6.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fbb517f2305d7e0af6162bc779fff6a4\AndroidManifest.xml:26:5-28:41
+MERGED from [com.android.support:design:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4ab2c3eaddedc59df046927000a07ca1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4ab2c3eaddedc59df046927000a07ca1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\c3a8f3a0d295670377e188dc32f46124\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\c3a8f3a0d295670377e188dc32f46124\AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-database:4.3.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\9d4bdba525972f56982c9c21b6079e8e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-database:4.3.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\9d4bdba525972f56982c9c21b6079e8e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e068920c283ce1d351f0d52e1f67946a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e068920c283ce1d351f0d52e1f67946a\AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-common:4.3.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\ff9994247c29376b5757dd03421ceac2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-common:4.3.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\ff9994247c29376b5757dd03421ceac2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4422821a9d11a4d4703340a24c3631bb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4422821a9d11a4d4703340a24c3631bb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\22c9ca82f38635e01e78144aae639355\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\22c9ca82f38635e01e78144aae639355\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\277146c529d938d87d7772a0a63ee3e5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\277146c529d938d87d7772a0a63ee3e5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3ea5e5533d8548876cce89050d737c3c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3ea5e5533d8548876cce89050d737c3c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\63720efeef93edc69e2e2c65e7e2ba04\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\63720efeef93edc69e2e2c65e7e2ba04\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\aa871b37032675c873e62a667e305174\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\aa871b37032675c873e62a667e305174\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\85a86759d725a8a1aa5d0848c1489dc8\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\85a86759d725a8a1aa5d0848c1489dc8\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e53673760ce45f61dba3074b1469e7ac\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e53673760ce45f61dba3074b1469e7ac\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\31fa807e016e3e7fac2ae27172ca961e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\31fa807e016e3e7fac2ae27172ca961e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\344ccac3982e0355d715676143bf8e2a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\344ccac3982e0355d715676143bf8e2a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\2ef2d46ac80a2557a3e7a8f3aee9a498\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\2ef2d46ac80a2557a3e7a8f3aee9a498\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\882c7e9c4687ef92414400667a4a67bc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\882c7e9c4687ef92414400667a4a67bc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\84cc9b4294a666a88d1195a3e1cf8e1e\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\84cc9b4294a666a88d1195a3e1cf8e1e\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f15112cb847594ccbf42358220bcd997\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f15112cb847594ccbf42358220bcd997\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\14fe502b218ccbc94711b15e8ec8108b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\14fe502b218ccbc94711b15e8ec8108b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\18e9375e045cb663b6f65fc8e3d384d4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\18e9375e045cb663b6f65fc8e3d384d4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f8f65a4633052d056b6f0d8c7585995c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f8f65a4633052d056b6f0d8c7585995c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\2e57502379fea8024d294f571d91cce4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\2e57502379fea8024d294f571d91cce4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f5bc1da313e2bf6c58ef4b1d672b107e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f5bc1da313e2bf6c58ef4b1d672b107e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\5e8364cb17bdfdb14e976e8cf898a936\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\5e8364cb17bdfdb14e976e8cf898a936\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b89e2d53debda2798de3a68c670e3a6a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b89e2d53debda2798de3a68c670e3a6a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\75d8251173607976a712ad278f714fb2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\75d8251173607976a712ad278f714fb2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\0cf401834a3559d0f316c2f78f098db9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\0cf401834a3559d0f316c2f78f098db9\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\17184f9772846352372e83ce76b9f835\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\17184f9772846352372e83ce76b9f835\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f12407518c4c642f49212bbf15fd2de3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f12407518c4c642f49212bbf15fd2de3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fee7e60a316557594d4315cca87ce0c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fee7e60a316557594d4315cca87ce0c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\2f985e1bcfe09ac4171c33a2db93fd47\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\2f985e1bcfe09ac4171c33a2db93fd47\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\d5a48c18ff44bd9c64d24bc424f76091\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\d5a48c18ff44bd9c64d24bc424f76091\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\1a0f736e438905eb535e98278aaf2779\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\1a0f736e438905eb535e98278aaf2779\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3566740bbd8558da95513a8145641497\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3566740bbd8558da95513a8145641497\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3d272469fd9d251378c4429bcdb9929b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3d272469fd9d251378c4429bcdb9929b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e7e503aa2aebfce38198af3438b87d89\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e7e503aa2aebfce38198af3438b87d89\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\079f4d74c48b616b36f11305deefefd9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\079f4d74c48b616b36f11305deefefd9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\581fce54520545d1280d10ad6920f8d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\581fce54520545d1280d10ad6920f8d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\0ec65269e85f5e9dfe435b126e53af83\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\0ec65269e85f5e9dfe435b126e53af83\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\c3f166ad622d5712f448e0c23b7abb5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\c3f166ad622d5712f448e0c23b7abb5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b8b4c01c832c4af84b2ca85a23f5586c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b8b4c01c832c4af84b2ca85a23f5586c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b2bfe0daa63ab78fe3d7417ee73fc60d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b2bfe0daa63ab78fe3d7417ee73fc60d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\622b92e7831fabc22812236adbd54b1e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\622b92e7831fabc22812236adbd54b1e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\5d74cb4a628218563751914da22a5b7f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\5d74cb4a628218563751914da22a5b7f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\dedfb119e6d76a1e388489077c18f4f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\dedfb119e6d76a1e388489077c18f4f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\95c20fe8bcc661fb3bb72cfd211df1bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\95c20fe8bcc661fb3bb72cfd211df1bd\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3a8cd58ce6726339e0c6e20cfd85a5f4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3a8cd58ce6726339e0c6e20cfd85a5f4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\c7d1bc88329f4370db1acf702c27de0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\c7d1bc88329f4370db1acf702c27de0c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\63360f6ca60cd8608ef32db42434264e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\63360f6ca60cd8608ef32db42434264e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\a5b9082748d4f8971501897b1d584212\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\a5b9082748d4f8971501897b1d584212\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\7765b5c99b106fa6071a69f76d145f63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\7765b5c99b106fa6071a69f76d145f63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\d9c53e2cc59879f3dc8caec9e6f0f5f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\d9c53e2cc59879f3dc8caec9e6f0f5f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\9acf45e13a64d31ac1c75d66364f9e50\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\9acf45e13a64d31ac1c75d66364f9e50\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3a39d54c93c5cc5bbba64ebcf074d9b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\3a39d54c93c5cc5bbba64ebcf074d9b3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\2951b98aced4197c6c8491c0b7430924\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\2951b98aced4197c6c8491c0b7430924\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b95e75cae10786777e976b3184ff2b06\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b95e75cae10786777e976b3184ff2b06\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b1acb11ac77bc37e149f98dbc0560987\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\b1acb11ac77bc37e149f98dbc0560987\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\aa2c8727b06428f9840f8d65ef855d37\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\aa2c8727b06428f9840f8d65ef855d37\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\8ad1d49dfad8146870ebb127f69ada1c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\8ad1d49dfad8146870ebb127f69ada1c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\6a4769e9e9c093ded8b8b1f62d652488\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\6a4769e9e9c093ded8b8b1f62d652488\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:105:13-107:58
+	android:resource
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:107:17-55
+	android:name
+		ADDED from C:\Users\Hamilton\Box Sync\UCSB\ECE 150\ARChat\ARChat\app\Application\app\src\main\AndroidManifest.xml:106:17-67
+activity#com.google.ar.core.InstallActivity
+ADDED from [com.google.ar:core:1.6.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fbb517f2305d7e0af6162bc779fff6a4\AndroidManifest.xml:33:9-39:80
+	android:excludeFromRecents
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fbb517f2305d7e0af6162bc779fff6a4\AndroidManifest.xml:36:13-46
+	android:launchMode
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fbb517f2305d7e0af6162bc779fff6a4\AndroidManifest.xml:38:13-43
+	android:exported
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fbb517f2305d7e0af6162bc779fff6a4\AndroidManifest.xml:37:13-37
+	android:configChanges
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fbb517f2305d7e0af6162bc779fff6a4\AndroidManifest.xml:35:13-74
+	android:theme
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fbb517f2305d7e0af6162bc779fff6a4\AndroidManifest.xml:39:13-77
+	android:name
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fbb517f2305d7e0af6162bc779fff6a4\AndroidManifest.xml:34:13-62
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [com.google.ar:core:1.6.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fbb517f2305d7e0af6162bc779fff6a4\AndroidManifest.xml:41:9-43:41
+	android:value
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fbb517f2305d7e0af6162bc779fff6a4\AndroidManifest.xml:43:13-38
+	android:name
+		ADDED from [com.google.ar:core:1.6.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\fbb517f2305d7e0af6162bc779fff6a4\AndroidManifest.xml:42:13-62
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\22c9ca82f38635e01e78144aae639355\AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\22c9ca82f38635e01e78144aae639355\AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\277146c529d938d87d7772a0a63ee3e5\AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\277146c529d938d87d7772a0a63ee3e5\AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\344ccac3982e0355d715676143bf8e2a\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\344ccac3982e0355d715676143bf8e2a\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\73163a641bd9ee036d0b6f8e155b7ec2\AndroidManifest.xml:37:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4422821a9d11a4d4703340a24c3631bb\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4422821a9d11a4d4703340a24c3631bb\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4422821a9d11a4d4703340a24c3631bb\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4422821a9d11a4d4703340a24c3631bb\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4422821a9d11a4d4703340a24c3631bb\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4422821a9d11a4d4703340a24c3631bb\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4422821a9d11a4d4703340a24c3631bb\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4422821a9d11a4d4703340a24c3631bb\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\4422821a9d11a4d4703340a24c3631bb\AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\22c9ca82f38635e01e78144aae639355\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\22c9ca82f38635e01e78144aae639355\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\22c9ca82f38635e01e78144aae639355\AndroidManifest.xml:31:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\277146c529d938d87d7772a0a63ee3e5\AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\277146c529d938d87d7772a0a63ee3e5\AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\277146c529d938d87d7772a0a63ee3e5\AndroidManifest.xml:32:17-107
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\344ccac3982e0355d715676143bf8e2a\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\18e9375e045cb663b6f65fc8e3d384d4\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\18e9375e045cb663b6f65fc8e3d384d4\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f8f65a4633052d056b6f0d8c7585995c\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f8f65a4633052d056b6f0d8c7585995c\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\344ccac3982e0355d715676143bf8e2a\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\344ccac3982e0355d715676143bf8e2a\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\344ccac3982e0355d715676143bf8e2a\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\344ccac3982e0355d715676143bf8e2a\AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\658003cdb22831d652cad0a660d24b82\AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\882c7e9c4687ef92414400667a4a67bc\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\882c7e9c4687ef92414400667a4a67bc\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\882c7e9c4687ef92414400667a4a67bc\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\882c7e9c4687ef92414400667a4a67bc\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\84cc9b4294a666a88d1195a3e1cf8e1e\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\84cc9b4294a666a88d1195a3e1cf8e1e\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\84cc9b4294a666a88d1195a3e1cf8e1e\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\84cc9b4294a666a88d1195a3e1cf8e1e\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\84cc9b4294a666a88d1195a3e1cf8e1e\AndroidManifest.xml:13:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\18e9375e045cb663b6f65fc8e3d384d4\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\18e9375e045cb663b6f65fc8e3d384d4\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f8f65a4633052d056b6f0d8c7585995c\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f8f65a4633052d056b6f0d8c7585995c\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\18e9375e045cb663b6f65fc8e3d384d4\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\18e9375e045cb663b6f65fc8e3d384d4\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f8f65a4633052d056b6f0d8c7585995c\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\f8f65a4633052d056b6f0d8c7585995c\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\e2b2b98f52c8feb3c11a9b20abb332b7\AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\75d8251173607976a712ad278f714fb2\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\75d8251173607976a712ad278f714fb2\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Hamilton\.gradle\caches\transforms-2\files-2.1\75d8251173607976a712ad278f714fb2\AndroidManifest.xml:24:13-58

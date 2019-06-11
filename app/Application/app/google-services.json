@@ -15,6 +15,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "303031097876-vtret66sj3m1p1vfprle2lbnohh2h92m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.archat.engine.Chat",
+            "certificate_hash": "5f44fe0a6990bc8219cea975db7e02398a473b02"
+          }
+        },
+        {
+          "client_id": "303031097876-8l90i8abpiptpv38hjuh8aomi9ea04ei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.archat.engine.Chat",
+            "certificate_hash": "9d7cebb61c82bd6cdbc4795b1a3220803a705902"
+          }
+        },
+        {
           "client_id": "303031097876-k9p6tbcfs7dksn6u1q5csmca07o0deel.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
