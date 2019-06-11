@@ -683,4 +683,13 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
 
         finish();
     }
+
+    @Override
+    public void onBackPressed()
+    {
+        // code here to show dialog
+        Intent intent = new Intent(this,ChatRoomList.class);
+        startActivity(intent);
+        //super.onBackPressed();  // optional depending on your needs
+    }
 }

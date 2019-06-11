@@ -1269,6 +1269,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1338,6 +1339,7 @@ id mode_indicator
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id nav_profile
 id nav_sign_out
 id nav_view
 id navigation_header_container

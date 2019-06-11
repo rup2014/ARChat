@@ -53,7 +53,7 @@
         android:testOnly="true"
         android:theme="@style/SampleAppsTheme" >
         <activity
-            android:name="com.archat.engine.Chat.ui.profileActivity"
+            android:name="com.archat.engine.Chat.profileActivity"
             android:label="@string/title_activity_profile"
             android:theme="@style/SampleAppsTheme.NoActionBar" />
         <activity

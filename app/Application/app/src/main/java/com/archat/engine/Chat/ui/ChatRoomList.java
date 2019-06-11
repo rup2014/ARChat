@@ -41,6 +41,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Objects;
+import java.util.Random;
 
 import static android.support.v7.widget.DividerItemDecoration.HORIZONTAL;
 
@@ -140,6 +141,7 @@ public class ChatRoomList extends AppCompatActivity
                         Intent intent = new Intent(ChatRoomList.this,ChatActivity.class);
                         intent.putExtra("CHAT_ID", arrID.get(position));
                         startActivity(intent);
+                        finish();
                     }
                 });
                 return viewHolder;
@@ -152,15 +154,26 @@ public class ChatRoomList extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Chat Room Created", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
-
-                chatRef.push().setValue(chat, new DatabaseReference.CompletionListener() {
+                Random rand = new Random();
+                int randomint = rand.nextInt(1000);
+                final String chatName = "Chat Room" + " " + String.valueOf(randomint);
+                final String timeStamp = String.valueOf(System.currentTimeMillis());
+                ChatModel tempChatModel = new ChatModel("chatName", "",timeStamp,"");
+                chatRef.push().setValue(tempChatModel, new DatabaseReference.CompletionListener() {
                     @Override
                     public void onComplete(@Nullable DatabaseError databaseError, @NonNull DatabaseReference databaseReference) {
-
+                        String key = databaseReference.getKey();
+                        ChatModel chatModel = new ChatModel(chatName, "",timeStamp,key);
+                        chatRef.child(key).setValue(chatModel);
+                        arrID.add(key);
+                        Intent intent = new Intent(ChatRoomList.this,ChatActivity.class);
+                        intent.putExtra("CHAT_ID", key);
+                        startActivity(intent);
+                        finish();
                     }
-                })
+                });
 
             }
         });
@@ -244,6 +257,10 @@ public class ChatRoomList extends AppCompatActivity
             Intent intent = new Intent(this, LoginActivity.class);
             startActivity(intent);
             finish();
+        }
+        else if(id == R.id.nav_profile){
+            Intent intent = new Intent(this, com.archat.engine.Chat.profileActivity.class);
+            startActivity(intent);
         }
 //         else if (id == R.id.nav_share) {
 //
