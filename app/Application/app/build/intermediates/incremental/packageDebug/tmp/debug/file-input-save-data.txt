@@ -1,5 +1,9 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
+#Tue Jun 11 16:13:11 PDT 2019
+=======
 #Mon Jun 10 15:55:34 PDT 2019
+>>>>>>> master
 60.set=ASSET
 52.set=ASSET
 53.base=C\:\\Users\\rup96\\Desktop\\ARChat\\app\\Application\\app\\build\\intermediates\\merged_assets\\debug\\out

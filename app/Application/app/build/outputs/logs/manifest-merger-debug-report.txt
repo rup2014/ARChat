@@ -241,14 +241,22 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\ru
 		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:36:9-54
 	android:theme
 		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:41:9-47
+<<<<<<< HEAD
+activity#com.archat.engine.Chat.profileActivity
+=======
 activity#com.archat.engine.Chat.ui.profileActivity
+>>>>>>> master
 ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:42:9-45:75
 	android:label
 		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:44:13-59
 	android:theme
 		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:45:13-63
 	android:name
+<<<<<<< HEAD
+		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:43:13-44
+=======
 		ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:43:13-47
+>>>>>>> master
 activity#com.archat.engine.Chat.ui.LoginActivity
 ADDED from C:\Users\rup96\Desktop\ARChat\app\Application\app\src\main\AndroidManifest.xml:46:9-54:20
 	android:theme

@@ -1269,6 +1269,10 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+<<<<<<< HEAD
+id fab
+=======
+>>>>>>> master
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1338,12 +1342,17 @@ id mode_indicator
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+<<<<<<< HEAD
+id nav_profile
+id nav_sign_out
+=======
 id nav_gallery
 id nav_home
 id nav_send
 id nav_share
 id nav_slideshow
 id nav_tools
+>>>>>>> master
 id nav_view
 id navigation_header_container
 id never
@@ -1432,7 +1441,10 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+<<<<<<< HEAD
+=======
 id textView
+>>>>>>> master
 id text_input_password_toggle
 id text_type
 id text_value
@@ -1460,6 +1472,11 @@ id uniform
 id unlabeled
 id up
 id useLogo
+<<<<<<< HEAD
+id user_email
+id user_name
+=======
+>>>>>>> master
 id view_offset_helper
 id visible
 id wide
@@ -1770,6 +1787,10 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
 string search_menu_title
+<<<<<<< HEAD
+string sign_out
+=======
+>>>>>>> master
 string splash_screen_description
 string status_bar_notification_info_overflow
 string target_quality_error_desc

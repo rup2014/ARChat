@@ -1,5 +1,6 @@
 package com.archat.engine.Chat;
 
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -7,10 +8,13 @@ import android.widget.TextView;
 
 import com.archat.engine.Chat.R;
 import com.archat.engine.Chat.ui.User;
+import com.bumptech.glide.Glide;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+
+import java.net.URI;
 
 
 public class profileActivity extends AppCompatActivity {
@@ -22,6 +26,7 @@ public class profileActivity extends AppCompatActivity {
     String name;
     String userId;
     String email;
+    Uri profileImageURI;
 
 
     @Override
@@ -37,6 +42,7 @@ public class profileActivity extends AppCompatActivity {
         userId = currentUser.getUid();
         email = currentUser.getEmail();
         name = currentUser.getDisplayName();
+        profileImageURI = currentUser.getPhotoUrl();
 
 
         TextView username = (TextView)findViewById(R.id.Username);
@@ -49,7 +55,8 @@ public class profileActivity extends AppCompatActivity {
         username.setText("Username: " + name);
         useremail.setText("email: " + email);
         userID.setText("UID: " + userId);
-        subusername.setText(name);
+        subusername.setText("Username: " + name);
+        Glide.with(this).load(profileImageURI).into(profilepic);
 
 
     }
